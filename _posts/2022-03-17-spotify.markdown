@@ -5,10 +5,6 @@ published: true
 permalink: "/dont-use-spotify.html"
 ---
 
-Ever since the human race was established millions of years ago, there have been sounds that we hear and go "holy shit, that sounds dope!". For thousands of years, humans have been enjoying music as part of their daily lives.
-
-Let's say hypothetically you're on a family vacation, right? You're at a restaurant enjoying your food as well as the music playing over the speakers. All of a sudden the manager walks up to your table and says, "excuse me guys, but the music that you hear in the background.. that's not free. It'll be an additional fee of $1 on your bill".
-
 Music streaming services charge you a monthly subscription if you want to use their service without any ads. This is fine. That's how it should be. After all, they have to power their servers somehow. They're definitely not a non-profit organization, money needs to be made otherwise they have no business being here. So then, what's the issue? You get your music without interruption from advertisements (+ other perks many services offer), and you get to enjoy your music... What's the big deal? False. This is not true, or at least not in the eyes of Spotify.
 
 Spotify doesn't believe in freedom. They lock you in a jail cell if you attempt to use their service without a premium subscription. With the free plan of Spotify, you are thrown into a collage of digital restrictions that emit the worst user experience imaginable.
