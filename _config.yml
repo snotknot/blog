@@ -21,6 +21,9 @@
 title: Ascending Battles of Online Privacy 
 email: snotknotmail@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
+ Arguing that you don't care about the right to privacy because you have nothing to hide is no different than saying you don't care about free speech because you have nothing to say. 
+ 
+ - Edward Snowden 
 baseurl: "/blog/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: snotknot
