@@ -113,9 +113,7 @@ This is exactly what is happening when a hacker exploits something on your netwo
 
 Think of every device on your network as a tank. If a hacker has access to your IP camera (tank), he can then blow up all of your other tanks (devices on your network).
 
-Hopefully the realization is setting in as to why it's not a great idea to purchase a device that is littered with security vulnerabilities and jack it into your network. This goes for anything that connects to your network that h s a bunch of security flaws. 
-
-?
+Hopefully the realization is setting in as to why it's not a great idea to purchase a device that is littered with security vulnerabilities and jack it into your network. This goes for anything that connects to your network that has a bunch of security flaws. 
 
 Although it's impossible to have a network that is "unhackable", the first step is to not purchase $50 IP cameras that ship with a bunch of security flaws. Regardless of their price, avoiding IP cameras in most situations is the most viable option. CCTV cameras may be safer as their feed is physically transmitted over analog and everything is local on your own local storage. Nothing is going over the internet or your Wi-Fi. 
 
