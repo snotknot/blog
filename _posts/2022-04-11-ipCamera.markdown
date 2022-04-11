@@ -1,0 +1,132 @@
+---
+layout: post
+title:  "Why you shouldn't use IP Cameras"
+published: true
+permalink: "/ip-cameras.html"
+---
+
+This post is designed to be an informational post about the in depth security risks that come with owning an IP Camera. The only viable solution to help reduce this problem is via awareness and bringing its attention to as many people as possible. With that said, do not recreate anything demonstrated or mentioned within this post.
+
+Finding IP camera video feeds that are publicly available to the internet has been a hobby of mine for a few years now. Over the years, I've discovered many questionable, weird, and creepy camera feeds that overall should definitely not be public to the internet. Unfortunately, the vast majority of people who buy these cameras don't know how to properly secure them and end up using the default settings which typically end up being insecure. Almost all of the people who buy these cameras are also unaware of the fact that the camera's video feed can be accessed by anyone in the world.
+
+There are many situations where people or companies will purchase IP cameras and intentionally make its feed public to the internet. This is common with zoo video feeds, for example. However, there have been many video feeds that I've found that very obviously are not intended to be publicly accessible. I've found IP security cameras in:
+
+(not an inclusive list)
+
+- hotels
+- airbnb's
+- coffee shops 
+- inside/outside homes
+- factories
+- small-medium sized businesses/companies/corporations 
+
+
+How do IP Cameras work?
+
+Wikipedia: 
+
+> An Internet Protocol camera, or IP camera, is a type of digital video camera that receives control data and sends image data via an IP network. They are commonly used for surveillance but unlike analog closed-circuit television (CCTV) cameras, they require no local recording device, only a local area network. Most IP cameras are webcams, but the term IP camera or netcam usually applies only to those that can be directly accessed over a network connection, usually used for surveillance.
+
+To break the Wikipedia definition into English, it's a camera that transmits its feed to a website that you can view from the comfort of your own web browser, either on your computer or mobile device. 
+
+It doesn't require you to attach a hard drive to it because its feed is transmitted with IP packets over your LAN to a http server that you view with your web browser which is obviously the http client.
+
+IP cameras are designed to be remotely accessible by their administrators with ease. The problem with these cameras is that their feed will be transmitted to a website that is open to the internet by default. Administrators are not the only people who can connect to these cameras. Anyone can. Unfortunately, majority of these cameras do not have required authentication to access their video feed by default. What I typically end up seeing is that the video feed is open to the public internet, but you have to authenticate as an administrator to access the admin panel or to control the camera. As you probably have guessed, authenticating as an admin to access the admin panel is default with most of these cameras, but anyone can still access the feed as normally.
+
+You're starting to see this is an issue, correct? This means that literally anybody in the world with an internet connection can remotely connect to and view your camera as long as they know the IP address to it. Unless if you protect your video feed with a login portal, then anybody can view your video feed assuming they don't guess the password or hack into it.
+
+It may not matter if someone can view the feed of a security camera watching a public parking lot, but what if that camera is located somewhere more personal such as a home?
+
+As I mentioned, a lot of people who buy these cameras don't know that they're buying a camera with a public internet facing video feed. Many don't put in the time to do research on the cameras before they buy them, they just assume they're secure enough for their needs. Your typical person also doesn't know the difference between an IP camera, of your traditional analog CCTV camera.
+
+What makes IP cameras scary is that their feed can be indexed by search engines such as Google, and services such as Shodan. Many believe people can only access their camera's video feed if they have the camera's IP address. Although this is true, obtaining the IP address is not a hard task. Google has built in search operators that you can use to filter your search results. This is also known as google dorking, google feud, or google hacking. Essentially what this means is you can use a combination of advanced search queries that will alter the search results as you wish. For example, if you want Google to only show you results that contains the string, "google" somewhere in the URL, you type:
+
+	inurl:"google"
+
+You can also string together multiple queries, such as:
+
+	inurl:"quizlet" | intitle:"test"
+
+The above query will tell Google to only display results from sites that contain "quizlet" somewhere in the URL, and "test" somewhere in the title.
+
+Using these different dorks, it's possibly to find essentially anything on Google if you know how to properly string these queries together. 
+
+The http-title of the web servers running on these cameras almost always have hard coded values written into a file stored locally on the camera. An http-title is a placeholder for the title of the website, which in this case is powering the camera's video feed. The titles of these video feeds will differ from camera to camera, but a few examples of a few intitle queries are:
+
+- "Live View"
+- "Network Camera"
+- "liveapplet"
+
+It's common for the above strings to be located somewhere in the title of the website, which is why the "intitle" dork would work best here.  
+
+It's also common for the Camera's name to be somewhere in the title.
+
+You can spice things up a bit and use the "inurl" dork instead, which can be equally as useful depending on the situation.
+
+You probably know what a URL is. If you don't, an example is:
+	
+	https://www.google.com/
+
+That URL obviously goes to Google.
+
+The website containing the camera's video feed will typically be stored in a certain directory or a bunch of nested subdirectories, such as: 
+
+	https://www.example.com/subDirectory1/subDirectory2/mainDirectory/page1.html/
+
+A realistic example of an actual URL of a camera is: 
+
+	http://<IP>/view/view.shtml/
+
+Notice how I typed "http"? The very vast majority of these cameras are not running over https.
+
+The camera's feed in this case is stored in the "view" directory, and on the "view.shtml" file. This makes the following dork useful:
+
+	inurl:"view/view.shtml" 
+
+See how easy that is? This single dork goes a long way. With a bit of ingenuity, you can use a wide variety of dork combinations to find various IP cameras. Hypothetically, let's say you want to limit your scope to only finding Axis cameras. You realized that most, if not all http-titles of the Axis video feeds have "LiveView / – AXIS" in them. Well, using that knowledge, we can use the following dork:
+
+	intitle:”LiveView / – AXIS” | inurl:view/view.shtml
+
+Using the right google dorks, it's entirely possible to find web servers that host the video feeds to various network connected cameras across the world. This is obviously due to their feed being transmitted to a web server. The port in which these cameras will be running on will be open on the network, which means connections can be made to the camera even from outside of the local network it's connected to. 
+
+Other than google dorks, there are many other services/tools/frameworks, etc. that can discover these vulnerable devices that are publicly facing the internet. Shodan, as mentioned earlier, is a prime example. I personally don't use Shodan as I rely on google dorking.
+
+Now that I've rambled about dorking for a bit, let's discuss why these cameras are awful from a security perspective. Aside from anyone having the capability to view your video feed, anyone can now hack into your camera. Granted anything can be hacked, but IP cameras are especially littered with security vulnerabilities.
+
+A particular IP camera manufactured by a particular company that I won't name, runs an outdated webserver that has many publicly known vulnerabilities posted online. There is a vulnerabiity in the admin login portal that allows you to overwrite the admin password with whatever you want, giving you access to the admin panel. It already has a CVE for it out there so it's obviously known to security researchers, but manufacturers are still shipping these cameras using this out of date webserver and god only knows what other outdated services.
+
+Most of these companies aren't going to take the time to update these devices when these vulnerabilties surface.
+
+This same camera has a few other CVE's for it out there for a few other vulnerabilities, that was just one of them. I discovered this all by simply discovering the camera via Google Dorking, discovering what version webserver it's running, and Googling it for vulnerabilities. It took me 5 minutes. Those 5 minutes could have landed me admin access to this camera. If I can do it, anyone can.
+
+This is a camera that anyone, right now, can purchase. If that's not scary to you, I don't know what is.
+
+It doesn't end there. Trust me, it's a lot worse. It's definitely possible to exploit the underlying services running on these cameras to get limited access to a particular portion of the camera (admin panel, camera settings, etc.), but it's also possible to get full root access over the entire camera as a whole. If you manage to discover a code execution vulnerability, you can obviously use that for ill intent to get a shell on the camera, giving you full control over that camera.
+
+If that's confusing, I'll attempt to help paint the picture. An IP camera is just an embedded device. Most embedded devices are running some form of linux on them, which is an Operating System. Operating Systems have Users who control the Operating System. When you're able to remotely execute code on a device, you have full control over that linux user on that device. Any code you remotely execute will be executed by that user.
+
+This is the hypothetical equivalant of giving a random person your Wi-Fi password so that they can connect their computer to your internet. The only difference is their "computer" is your IP camera, and they're accessing it remotely. They now have remote access to a computer on your network.
+
+Basic networking 101 time. What does a computer need to computer with another computer? A router, correct? First, you need to authenticate with routers via a password, right? Would you give a hacker your Wi-Fi password? Probably not because then he can communicate with your computer and make it do whatever he wants.
+
+This is exactly what is happening when a hacker exploits something on your network. The only difference is he's controlling a device on your network remotely, and he didn't even need to authenticate to your network because the device he hacked was already connected to your network. 
+
+Think of every device on your network as a tank. If a hacker has access to your IP camera (tank), he can then blow up all of your other tanks (devices on your network).
+
+Hopefully the realization is setting in as to why it's not a great idea to purchase a device that is littered with security vulnerabilities and jack it into your network. This goes for anything that connects to your network that has a bunch of security flaws. 
+
+## Solution?
+
+Although it's impossible to have a network that is "unhackable", the first step is to not purchase $50 IP cameras that ship with a bunch of security flaws. Regardless of their price, avoiding IP cameras in most situations is the most viable option. CCTV cameras are safer as their feed is physically transmitted over analog and everything is local on your own local storage. Nothing is going over the internet or your Wi-Fi. 
+
+If you have to use an IP Camera, invest money into a reputable camera that doesn't literally come shipped with admin panel CVE's. In other words, one that doesn't come shipped with known security flaws. Just google the name of the camera with "exploit" appended at the end. If you're finding CVE's or results from the sites "exploitdb" or "rapid7", definitely don't buy that camera. You can also segment the camera's network into its own subnet so that even if it's compromised, it can't communicate with your main network.
+
+### Hardening the Camera
+
+If an IP camera is your most valuable option, then hardening it is a great idea. A lot of IP cameras come with stock credentials. These are default admin credentials such as "admin:admin" or "admin:password". You obviously should change these. Only purchase cameras that allow you to password protect the video feed. This means that if someone dorks your feed, surely they can connet to it, but they won't know the password in able to view the feed. All passwords should follow basic password protocols in terms of complexity to reduce the chance of bruteforce attacks. Make it something that isn't easy to guess, and make it a password that isn't used for anything else. 
+
+Due to IP Cameras being useful for their capability to be accessed anywhere remotely, many cameras will tell you to open up the port the camera is running on so that you can access it from outside of your network. If you can, don't open the port. This will prevent people from remotely connecting to it in the first place. If you're never going to access your camera feed when you're not home or if you can live without it, then skip this all together as it will save you 99% of the troubles. The only thing that can happen now is if someone locally hacks your camera physically in person by jacking into your network while war driving or something stupid like that but that's way out of scope of this post and we're getting off topic.
+
+IP Cameras are simple and convenient, but they're often cheap for a reason. The shortcuts they take is in the security. Security flaws will typically be present even in pricier IP cameras due to their overall insecure design. However, if owning one is a must, then these are great ways to harden your camera.
+
+If you want a more secure camera, you can trade off your data for better security by purchasing a home security package from a company such as Simplisafe. They collect some of your data and your account info, alerts, videos, etc. are stored on their cloud servers, but you get WAY better security. For a home security route, this is the way to go other than maybe CCTV if that's convenient to you. CCTV has some downsides and only really have privacy advantages, everything else makes them inconvenient. With CCTV you have to hook up analog and route that through your home, and hook it up to a DVR or your own HDD. Companies such as simpisafe offer more expensive packages overall but are more ideal and secure. Also, if you purchase cameras, don't be that person who puts them in private areas in your home.
