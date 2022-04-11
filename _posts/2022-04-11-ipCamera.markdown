@@ -51,7 +51,7 @@ The above query will tell Google to only display results from sites that contain
 
 Using these different dorks, it's possible to find essentially anything on Google if you know how to properly string these queries together. 
 
-The http-title of the web servers running on these cameras almost always have hard coded values written into a file stored locally on the camera. An http-title is a placeholder for the title of the website, which in this case is powering the camera's video feed. The titles of these video feeds will differ from camera to camera, but a few examples of a few intitle queries are:
+The http-title of the web servers running on these cameras almost always have hard coded values written into a file stored locally on the camera. An http-title is a placeholder for the title of the website, which in this case is powering the camera's video feed. The titles of these video feeds will differ from camera to camera, but examples of a few "intitle" queries are:
 
 - "Live View"
 - "Network Camera"
