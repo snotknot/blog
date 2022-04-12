@@ -107,7 +107,7 @@ If that's confusing, I'll attempt to help paint the picture. An IP camera is jus
 
 This is the hypothetical equivalant of giving a random person your Wi-Fi password so that they can connect their computer to your internet. The only difference is their "computer" is your IP camera, and they're accessing it remotely. They now have remote access to a computer on your network.
 
-Basic networking 101 time. What does a computer need to computer with another computer? A router, correct? First, you need to authenticate with routers via a password, right? Would you give a hacker your Wi-Fi password? Probably not because then he can communicate with your computer and make it do whatever he wants.
+Basic networking 101 time. What does a computer need to communicate with another computer? A router, correct? First, you need to authenticate with routers via a password, right? Would you give a hacker your Wi-Fi password? Probably not because then he can communicate with your computer and make it do whatever he wants.
 
 This is exactly what is happening when a hacker exploits something on your network. The only difference is he's controlling a device on your network remotely, and he didn't even need to authenticate to your network because the device he hacked was already connected to your network. 
 
