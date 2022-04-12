@@ -37,7 +37,7 @@ You're starting to see this is an issue, correct? This means that literally anyb
 
 It may not matter if someone can view the feed of a security camera watching a public parking lot, but what if that camera is located somewhere more personal such as a home?
 
-As I mentioned, a lot of people who buy these cameras don't know that they're buying a camera with a public internet facing video feed. Many don't put in the time to do research on the cameras before they buy them, they just assume they're secure enough for their needs. Your typical person also doesn't know the difference between an IP camera, of your traditional analog CCTV camera.
+As I mentioned, a lot of people who buy these cameras don't know that they're buying a camera with a public internet facing video feed. Many don't put in the time to do research on the cameras before they buy them, they just assume they're secure enough for their needs. Your typical person also doesn't know the difference between an IP camera, or your traditional analog CCTV camera.
 
 What makes IP cameras scary is that their feed can be indexed by search engines such as Google, and services such as Shodan. Many believe people can only access their camera's video feed if they have the camera's IP address. Although this is true, obtaining the IP address is not a hard task. Google has built in search operators that you can use to filter your search results. This is also known as google dorking, google feud, or google hacking. Essentially what this means is you can use a combination of advanced search queries that will alter the search results as you wish. For example, if you want Google to only show you results that contains the string, "google" somewhere in the URL, you type:
 
@@ -51,7 +51,7 @@ The above query will tell Google to only display results from sites that contain
 
 Using these different dorks, it's possibly to find essentially anything on Google if you know how to properly string these queries together. 
 
-The http-title of the web servers running on these cameras almost always have hard coded values written into a file stored locally on the camera. An http-title is a placeholder for the title of the website, which in this case is powering the camera's video feed. The titles of these video feeds will differ from camera to camera, but a few examples of a few intitle queries are:
+The http-title of the web servers running on these cameras almost always have hard coded values written into a file stored locally on the camera. An http-title is a placeholder for the title of the website, which in this case is powering the camera's video feed. The titles of these video feeds will differ from camera to camera, but a few examples of intitle queries are:
 
 - "Live View"
 - "Network Camera"
@@ -114,6 +114,8 @@ This is exactly what is happening when a hacker exploits something on your netwo
 Think of every device on your network as a tank. If a hacker has access to your IP camera (tank), he can then blow up all of your other tanks (devices on your network).
 
 Hopefully the realization is setting in as to why it's not a great idea to purchase a device that is littered with security vulnerabilities and jack it into your network. This goes for anything that connects to your network that has a bunch of security flaws. 
+
+## Solution
 
 Although it's impossible to have a network that is "unhackable", the first step is to not purchase $50 IP cameras that ship with a bunch of security flaws. Regardless of their price, avoiding IP cameras in most situations is the most viable option. CCTV cameras may be safer as their feed is physically transmitted over analog and everything is local on your own local storage. Nothing is going over the internet or your Wi-Fi. 
 
