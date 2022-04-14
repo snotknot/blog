@@ -93,7 +93,7 @@ Other than google dorks, there are many other services/tools/frameworks, etc. th
 
 Now that I've rambled about dorking for a bit, let's discuss why these cameras are awful from a security perspective. Aside from anyone having the capability to view your video feed, anyone can now hack into your camera. Granted anything can be hacked, but IP cameras are especially littered with security vulnerabilities.
 
-A particular IP camera manufactured by a particular company that I won't name, runs an outdated webserver that has many publicly known vulnerabilities posted online. There is a vulnerabiity in the admin login portal that allows you to overwrite the admin password with whatever you want, giving you access to the admin panel. It already has a CVE for it out there so it's obviously known to security researchers, but manufacturers are still shipping these cameras using this out of date webserver and god only knows what other outdated services.
+A particular IP camera manufactured by a particular company that I won't name, runs an outdated webserver that has many publicly known vulnerabilities posted online. There is a vulnerability in the admin login portal that allows you to overwrite the admin password with whatever you want, giving you access to the admin panel. It already has a CVE for it out there so it's obviously known to security researchers, but manufacturers are still shipping these cameras using this out of date webserver and god only knows what other outdated services.
 
 Most of these companies aren't going to take the time to update these devices when these vulnerabilties surface.
 
