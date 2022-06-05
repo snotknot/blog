@@ -127,7 +127,7 @@ Enough boring lore, what is the dark web and why is it used? All types of conten
 
 Dread is a great example. Dread is essentially a free-speech version of reddit that is hosted on a darknet. It's also way better than reddit if you're looking for security related topics and other nerdy computer stuff.
 
-I want to take a minute to explain the Silk Road, which was an anonymous darknet marketplace used to sell drugs and other services. The Silk Road doesn't exist today as the owner of it was arrested and the site was shutdown. However, there are still many other marketplaces today that are trying to mimic the success of the Silk Road. Everyone on the dark web knows the origin of the Silk Road as it's a staple in the Dark web world. I'll link a documentary down below, I highly recommend watching it as there are many OPSEC mistakes to learn from that Ross (the owner) made that lead to not only his arrest, but many others as well as the ultimate shutdown of the Silk Road.
+I want to take a minute to explain the Silk Road, which was an anonymous darknet marketplace used to sell drugs and other services. In fact, the Jolly Rogers security thread that you read was written by a silk road user. The Silk Road doesn't exist today as the owner of it was arrested and the site was shutdown. However, there are still many other marketplaces today that are trying to mimic the success of the Silk Road. Everyone on the dark web knows the origin of the Silk Road as it's a staple in the Dark web world. I'll link a documentary down below, I highly recommend watching it as there are many OPSEC mistakes to learn from that Ross (the owner) made that lead to not only his arrest, but many others as well as the ultimate shutdown of the Silk Road.
 
 Documentary:
 
