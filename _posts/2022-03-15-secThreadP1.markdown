@@ -137,14 +137,18 @@ OpSec lessons:
 
 	https://www.youtube.com/watch?v=HBTYVVUBAGs&t	
 
+
+
 #### Deep Web 
 
 The deep web is essentially any part of the clearnet (or clear web) that cannot be indexed by a search engine. For example, if you log into your Google account and go into your settings, that settings page lives in the deep web. You obviously can't just find the URL to your Google account's settings on the Google search engine, that doesnt make any sense. Even if you send that URL to someone, they're going to have to authenticate with your credentials before they can even access your settings page. There's a lot of underlying backend services and webservers that are responsible for powering a variety of other frontend services and webservers. That's that deepweb.
 
 
+
 #### Clearnet
 
 The clearnet, also known as the "clear web" or "surface web", are the normal parts of the internet that you're used to. Google, YouTube, that's all the clearnet. If you don't need Tor to access it, it's mostly safe to say it's the clearnet. 
+
 
 
 #### Black Web 
