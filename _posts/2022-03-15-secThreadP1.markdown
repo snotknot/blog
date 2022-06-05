@@ -65,7 +65,7 @@ Link:
 	
 I didn’t bring anything new to the table with the paragraph above, everybody knows that privacy is a myth today but really the point of that paragraph is to refresh your mind with reality and to educate the people who maybe didn’t already know. Now that you’re in the right mindset, it’s also important to know that there is no such thing as being 100% anonymous on the internet. There are of course things that you can do to increase your anonymity, but honestly your OPSEC (things you do that can aid in identifying you) is what matters the most. We’ll discuss OPSEC in the next section if you’re confused so don’t worry. You could take every possible step to increase your security online successfully but if you make one stupid OPSEC mistake to blow your cover then it’s all game over. It only takes one slip up. 
 
-Depending on your situation will obviously determine the steps you take to modify your setup to achieve your desired outcome. Some people don’t want to be “anonymous” on the internet, but want increased privacy. Meanwhile, others want to remain completely anonymous. I personally wouldn’t want to be “anonymous”, unless if I’m doing something illegal/sketchy, or even if I’m legally browsing the dark web. Remember: TOR, Tails, VPNs, accessing the dark web is all legal. It’s how you use it all that determines the legality of what you’re doing. If you’re simply browsing the dark web on security forums then you’ll be fine. I won’t discuss this any further because it’s common sense: use things for illegal shit = illegal. If you can’t comprehend what would be legal or illegal then you probably should start there. If you’re not sure on the legality of something, that’s fine… verify first or don’t do it at all. The point is you need to alter your habits/setup depending on your goals. I won’t sit here and list every single possible situation that you may be in right now. You need to obviously adjust accordingly. Be open minded. 
+Depending on your situation will obviously determine the steps you take to modify your setup to achieve your desired outcome. Some people don’t want to be “anonymous” on the internet, but want increased privacy. Remember: TOR, Tails, VPNs, accessing the dark web is all legal. It’s how you use it all that determines the legality of what you’re doing. If you’re simply browsing the dark web on security forums then you’ll be fine. I won’t discuss this any further because it’s common sense: use things for illegal shit = illegal. If you can’t comprehend what would be legal or illegal then you probably should start there. If you’re not sure on the legality of something, that’s fine… verify first or don’t do it at all. The point is you need to alter your habits/setup depending on your goals. I won’t sit here and list every single possible situation that you may be in right now. You need to obviously adjust accordingly. Be open minded. 
 
 Lastly: You will not learn all of this overnight. It comes with time and experience, you need to be dedicated to learning the concepts. The urge to learn should be a genuine feeling. Everything discussed in this thread isn’t necessarily “hard”, but more of a “you have to do it to know” type of a thing so that’s why you should get hands on experience using the tools and methods that you learn not only from these threads, but elsewhere online. Security is a very large and broad subject. If you aren’t dedicated then you’re probably going to fall behind. 
 
@@ -102,6 +102,55 @@ Pros of using DuckDuckGo:
 This gives us more power over who has our data as it guarantees other big companies (Microsoft, and Google) aren't actively spying on us and collecting our data. With the setup above, it rules Google and Microsoft out of the picture. If we don't use any social media, then Twitter, Facebook, etc. won't have our data either. This allows us to pick and choose exactly what companies do and don't have our data. The companies who have our data is determined by which companies we register accounts for and actively use. Privacy also gives us the option to decide who has access to our data, and for how long. For example, I despise Google, but I can't live without YouTube. This means that Google can still collect my data whenever I'm on YouTube. That's fine. I'm willing to trade off some data collection for access to YouTube. Allowing Google to collect my data for the hour I'm on YouTube every day is better than allowing Google to always spy on me by constantly using their various products such as YouTube, and their search engine Google 24/7. Less data is being collected on me, for a shorter time frame. The second I disconnect from Youtube, I'm completely disconnected from all major tech companies as YouTube is the only social media that I "actually" use. In contrast, compare this to if I used every social media out there while running Windows and Google Chrome. This would mean Microsoft, Google, Twitter, Reddit, Facebook, and Tiktok at the minumum would all be actively collecting my data 24/7. Jesus fucking christ. No thank you.
 
 With anonymity, your average person won't care who has access to thier data, they just don't want anyone to have the capability to tie that data to them as an individual. They also typically don't care who can see the actions they're performing. Again, they just don't want those actions to be tied to them as an individual. Take this with a grain of salt though, as a lot of anonymous individuals actually do care who has access to their data and who can see their actions. Let's use the infamous hacker example. Hackers typically will make a dedicated effort to strategically control who can and can't see their data and actions. The more entities that log their actions or collect their data, are more actions and data that can be used to potentially unmask them if they slip up and make an opsec mistake. Cybercriminals typically are the only subset of people who this will apply to. Your average person likely won't care. 
+
+## The Dark Web, The Deep Web, The Clearnet, and the differences
+
+If you ask the average Joe what the dark web is, they likely will have no idea what you're talking about. Many have "heard" of the dark web but never knew it actually existed. Well, contrary to their belief, the dark web is very much a thing. 
+
+Many also get the dark web and the deep web mixed up with eachother, and many believe they are the same thing. The dark web is in every way different from the deep web.
+
+In terms of the clearnet, or the "clear web", most people know what that is. 
+
+#### Darkweb 
+
+(Wikipedia)
+
+> The dark web is the World Wide Web content that exists on darknets: overlay networks that use the Internet but require specific software, configurations, or authorization to access. Through the dark web, private computer networks can communicate and conduct business anonymously without divulging identifying information, such as a user's location.
+
+The "specific software" they're referring to is Tor, which is configured in a way to allow access to darknet websites and is required to access the dark web. The darknets are the actual webservers hosting the darknet websites and are often referred to as "hidden services", or "onion servers". 
+
+Tor (The Onion Router) is a web browser based on Firefox that allows access to the dark web. It was given the name, "The Onion Router" because it offers "layers" (like an onion) of protection to anyone using it on the internet. This is also why any darknet webserver has the ".onion" extension at the end of the URL.. hence why they're called onion servers.
+
+Most of this should be a refresher from the Jolly Rogers security thread (linked in the Introduction section).
+
+Enough boring lore, what is the dark web and why is it used? All types of content (even those that are illegal) can be hosted on the dark web. There's no restrictions. There are no "guidelines" you have to follow while using the dark web. It's just an anarchy version of the internet. The only exceptions are forums and other types of sites on the darkweb that have their own unique admin specific rules, but those rules are only unique to that darknet. For example, many morally pruden darknet admins will prohibit any form of doxxing, child exploitation material, or any other form of illegal content. They do this mainly so that their servers won't be targetted by Law enforcement, but many of the admins do it for their own moral reasons as well.
+
+Dread is a great example. Dread is essentially a free-speech version of reddit that is hosted on a darknet. It's also way better than reddit if you're looking for security related topics and other nerdy computer stuff.
+
+I want to take a minute to explain the Silk Road, which was an anonymous darknet marketplace used to sell drugs and other services. The Silk Road doesn't exist today as the owner of it was arrested and the site was shutdown. However, there are still many other marketplaces today that are trying to mimic the success of the Silk Road. Everyone on the dark web knows the origin of the Silk Road as it's a staple in the Dark web world. I'll link a documentary down below, I highly recommend watching it as there are many OPSEC mistakes to learn from that Ross (the owner) made that lead to not only his arrest, but many others as well as the ultimate shutdown of the Silk Road.
+
+Documentary:
+
+	https://www.youtube.com/watch?v=GpMP6Nh3FvU
+
+OpSec lessons: 
+
+	https://www.youtube.com/watch?v=HBTYVVUBAGs&t	
+
+#### Deep Web 
+
+The deep web is essentially any part of the clearnet (or clear web) that cannot be indexed by a search engine. For example, if you log into your Google account and go into your settings, that settings page lives in the deep web. You obviously can't just find the URL to your Google account's settings on the Google search engine, that doesnt make any sense. Even if you send that URL to someone, they're going to have to authenticate with your credentials before they can even access your settings page. There's a lot of underlying backend services and webservers that are responsible for powering a variety of other frontend services and webservers. That's that deepweb.
+
+
+#### Clearnet
+
+The clearnet, also known as the "clear web" or "surface web", are the normal parts of the internet that you're used to. Google, YouTube, that's all the clearnet. If you don't need Tor to access it, it's mostly safe to say it's the clearnet. 
+
+
+#### Black Web 
+
+The "black web" doesn't exist. When people say "black web", what they really mean is the dark web. If you don't believe me, just google "black web" and google will be like "wtf are you talking about? you mean the dark web?"
+
 
 ## OPSEC
 
