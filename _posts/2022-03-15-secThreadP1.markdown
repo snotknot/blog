@@ -9,6 +9,7 @@ Last Updated: 6/4/22
 
 Update Log: 
 
+- New section, "Privacy vs. Anonymity" was added
 - Many sections were modified for easier understanding
 - More convenient formatting
 
@@ -82,7 +83,7 @@ Pros of using Linux:
 - Not using Windows = not using a Microsoft product = allows us to guarantee our data isn't being collected by Microsoft
 - Not using windows = less malware will be designed to run on our system (vast majority of malware is written for Windows, with the second being MacOS)
 - Linux is open source, which guarantees full control over your system
-- Linux is open source, which guarantees there's no malicios backdoors running on your system (you can't guarantee this with Windows)
+- Linux is open source, which guarantees there's no malicious backdoors running on your system (you can't guarantee this with Windows)
 - The only thing windows is better for is photo/video editing, and gaming. Linux is better or just as good as Windows for everything else
 
 Pros of using Firefox: 
