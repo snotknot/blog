@@ -13,7 +13,7 @@ Copying other people is not a good way to learn anything. Everybody is different
 
 Learn to be self reliant and understand what works for you. Attempting to artificially alter your unique style of you, to someone who is not you.. will end up with poor results. Stop trying to use a cheat code that doesn't exist. There aren't any. 
 
-Eliminating these issues (if you suffered from them in the first place) is a great starting point to learn programming or anything in life. I see this way too often.
+Eliminating these issues (if you suffered from them in the first place) are a great starting point to learn programming or anything in life. I see this way too often.
 
 # How to learn programming
 
