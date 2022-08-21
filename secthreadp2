@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "snotknot's security thread (part 2)"
+published: true
+permalink: "/snotknot-security-thread-part-2.html"
+---
+
+## Introduction
+
+Welcome to part II of my security thread. I'm unfortunately pretty late to the party in terms of my planned release date for part II. I'm finally starting to write these threads again. I'm glad to be back.
+
+In part I, I introduced you to a thread that was created by a silk road user back in 2014. I hope that you were able to realize the age of that thread. Some things were out of date. Most of that thread is fortunately still relevant today which is why I included it as a resource despite its old age. Upon writing part I, I initially planned on copy/pasting sections of that thread and then "updating" it with todays relevant information. I soon scratched that idea as I realized that most readers would have the common sense to know what information they should or shouldn't trust in terms of how "relevant" the information is today. Whenever I discuss something that was covered in Jolly Roger's thread, I will make sure to update it with what is relevant today.
+
+Within this thread, we will continue to discuss more important methods that you will need to be aware of before we actually start using them in part III. Parts I & II are just terminology rundowns or "educational" threads. Part III is when it actually gets fun and we start doing stuff. Trust me, I know everyone just wants to skip to the fun part. It's important to learn what and why before learning how. I encourage that you do not skip along as it may one day come back to haunt you when you're not knowledgeable about a particular subject. Let's say hypothetically that you're doing something illegal on your computer. Your computer is encrypted but you leave your computer powered on and locked overnight. Do you see any issues with this? It's okay if you don't as we'll be covering this in detail throughout the thread. You also didn't pay that close of attention to the Jolly Roger thread as he covered on this topic. If you were to skip along, it's possible that you may have missed the part in the Jolly Roger's thread where he covers why this isn't such a good idea. That one mistake may have you arrested as police have access to a live unencrypted system. This is why you should read everything and in order. Knowledge is power, literally.
+
+I will reiterate from part I: I do NOT support or condone illegal activies. Illegal activities are used as a base example to help demonstrate points. That does not mean that I encourage you to do anything illegal.
+
+## What data does your ISP collect about you?
+
+Your ISP (Internet Service Provider) is the company responsible for providing your internet connection. Registration with an ISP requires personally identifiable information. This should come as no suprise as you have to pay for this service with your personal credit card and provide your address for installation. 
+
+You're instantly providing your ISP with your personal information, and will continue to provide them your data as you use their service. What exactly is this data?
+
+The internet is just a big collection of servers. These servers will have IP addresses. IP addresses are required to establish a connection over a network. Anything you connect to over the internet will have an IP address, you will connect to that IP address with your IP address assigned to you by your ISP. Only when you establish this initial connection will you be able to communicate with it in any way. Remember: Networking was a dependency for these threads. We'll be here for fucking ages if I teach you the in's and out's of networking as well as the other dependencies listed in part I.
+
+## The truth about VPNs 
+
+If you haven't been living under a rock recently then you definitely have had VPN advertisements shoved in your face while browsing social media. These are more common on YouTube as VPN providers will pay bigger YouTube channels to advertise their product. These advertisements often will be misleading as the VPN providers will write nonsense on the script they're paying the YouTuber to read aloud to the camera. Due to this misleading information, it causes a lot of people to be lied to about the capabilities of VPNs.
+
+I want to make it abundantly clear that I have nothing against public figures who accept sponsorship deals with VPN providers. Most probably don't know better and simply read the script. YouTube also demonetizes creators so I understand the urgency to catch the bag. It's perfectly acceptable to lack the knowledge of VPNs. This is a security thread, however... therefore it's important to dive into the specifics of what VPNs are and aren't good for.
+
+
+
+(topic ideas)
+Airbnb router story
+VPNS 
+ISPS
+Veracrypt
+Tails tutorial
+Tor continued
