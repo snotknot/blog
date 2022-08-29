@@ -1,4 +1,4 @@
----
+--
 layout: post
 title:  "snotknot's security thread (part 2)"
 published: true
@@ -17,24 +17,74 @@ I will reiterate from part I: I do NOT support or condone illegal activies. Ille
 
 ## What data does your ISP collect about you?
 
-Your ISP (Internet Service Provider) is the company responsible for providing your internet connection. Registration with an ISP requires personally identifiable information. This should come as no suprise as you have to pay for this service with your personal credit card and provide your address for installation. 
+Your ISP (Internet Service Provider) is the company responsible for providing your internet connection. Registration with an ISP requires personally identifiable information. This should come as no surprise as you have to pay for this service with your personal credit card and provide your address for installation. 
 
 You're instantly providing your ISP with your personal information, and will continue to provide them your data as you use their service. What exactly is this data?
 
-The internet is just a big collection of servers. These servers will have IP addresses. IP addresses are required to establish a connection over a network. Anything you connect to over the internet will have an IP address, you will connect to that IP address with your IP address assigned to you by your ISP. Only when you establish this initial connection will you be able to communicate with it in any way. Remember: Networking was a dependency for these threads. We'll be here for fucking ages if I teach you the in's and out's of networking as well as the other dependencies listed in part I.
+Whenever you make a connection over the internet, your ISP will log the IP address and/or domain that you made the connction to, as well as the date and times that the connections were made to said IP addresses/domains. For example, your ISP knows that you connected to google.com at 4:00pm last Thursday. Your ISP can't see the contents of your session (the data you're sending and receiving), they can only see that you connected to said server over said domain/IP address at the said date and time. However, your ISP logs more data from connections that are not encrypted.
 
-## The truth about VPNs 
+If you're accessing a website that utilizes HTTPS (the vast majority of websites nowadays), then your ISP can only see the domain name/IP address of the website you're connected to. However, if you're connecting to a website that lacks HTTPS and instead is running over HTTP (not encrypted), then your ISP will be able to see the exact URL of your session.
+
+If Google didn't use HTTPS, then your ISP would be able to collect every search query you make on Google as Google appends your search query into the URL. For example, if you search "example123" on Google, the URL will be:
+
+  https://www.google.com/search?q=example123&oq=example123&aqs=chrome..69i57.2598j0j1&sourceid=chrome&ie=UTF-8
+
+Your ISP would log the entirety of this URL instead of just "google.com" if Google was running over HTTP.
+
+Thankfully this isn't the case as Google utilizes the HTTPS protocol which offers end-to-end encryption to our session. This means the data flow is encrypted, which prevents our ISP from logging the contents as they're not able to read our contents in the first place due to it being encrypted. Yay!!! Or is that something we should celebrate? Does this solve the whole data collection problem? Is encryption the savior we all need? Yes and no. It reduces the problem more than it solves it. The encryption only stops unauthorized people from snooping on the data flow to see what we're up to. Google can still see exactly what we're doing in plaintext as they own the encryption keys to decrypt our requests. 
+
+The point to take away here is to not think your ISP doesn't collect the contents of your session because they "respect your privacy". This is not true. The only reason they don't collect the contents is because they're not able to majority of the time thanks to many online services utilizing encryption. This will prevent your ISP from logging the contents of your session. If you establish a non encrypted session to a server, your ISP will log the contents. If you download an image over HTTP or some other unencrypted protocol, your ISP can retrieve that image just as anyone could who is snooping your data.
+
+These are the main things you need to know about in terms of what data your ISP will collect on you. There's other things I didn't mention but they're common sense when you think about them. For example, your ISP is also able to tell how long you're on a particular website. This is due to the fact that all of your data flow will be routed through your ISP before it reaches the server you're connecting to. Your ISP is the message man who is forwarding all of your data as well as sending it back to you.      
+
+Data collection exists for many reasons: data sells well, and for bulk collection ("AKA the goverment's euphemism for mass surveillance". ~ Edward Snowden)
+
+# The truth about VPNs 
 
 If you haven't been living under a rock recently then you definitely have had VPN advertisements shoved in your face while browsing social media. These are more common on YouTube as VPN providers will pay bigger YouTube channels to advertise their product. These advertisements often will be misleading as the VPN providers will write nonsense on the script they're paying the YouTuber to read aloud to the camera. Due to this misleading information, it causes a lot of people to be lied to about the capabilities of VPNs.
 
-I want to make it abundantly clear that I have nothing against public figures who accept sponsorship deals with VPN providers. Most probably don't know better and simply read the script. YouTube also demonetizes creators so I understand the urgency to catch the bag. It's perfectly acceptable to lack the knowledge of VPNs. This is a security thread, however... therefore it's important to dive into the specifics of what VPNs are and aren't good for.
+I want to make it abundantly clear that I have nothing against public figures who accept sponsorship deals with VPN providers. Most probably don't know better and simply read the script. YouTube also demonetizes creators so I understand why people would accept these offers. It's perfectly acceptable to lack the knowledge of VPNs. I believe that most people who accept these sponsorship deals are not intentionally spreading misinformation. This is a security thread however, which means it's important to dive into the specifics of what VPNs are and aren't good for.
 
+VPNs are good for: 
+- security (they offer an additional layer of encryption) 
+- bypassing certain types of censorship (pirating content, geographical restrictions (i.e., media that's only available in certain countries), IP bans) 
+- getting a new IP address 
 
+VPNs are not good for:
+- privacy 
+- anonymity
 
-(topic ideas)
-Airbnb router story
-VPNS 
-ISPS
-Veracrypt
-Tails tutorial
-Tor continued
+### The very niche situations where VPNs are "good for privacy"
+
+There are 100x more reasons as to why VPNs are absolutely awful from a privacy standpoint than why they're good for privacy. This is why privacy is included as one of the things VPNs are not good for.
+
+I guess the only privacy advantage VPNs offer is their capability to mask your IP address to prevent your real IP address from being logged on servers that you don't trust or know the owner of. This could potentially be a privacy concern to some. Someone with your IP address can figure out what ISP you use, the country you live in as well as your precise city (and in some situations your IP will lead to your exact city). This is all publicly available information that anyone can obtain if they have your IP address. There are many freely available resources online such as iplocation.net which will tell you all of this information of any IP address you enter. Some see this information as vital information that they don't want anyone obtaining. If this is the case for you, then a VPN is a great choice for you. VPNs also help mitigate DDoS attacks as the attacker won't have your real IP address to flood with his botnet, but your VPN IP address instead. As long as we're on the topic of DDoS attacks, VPNs will not prevent DDoS attacks. VPNs just make recovering from DDoS attacks easier as you can simply switch VPN servers if the server you're connected to is flooded. The alternative would be your real IP address going offline, which would cause your entire household to temporarily lose internet for a few minutes. The only time a VPN will prevent DDoS attacks is if you pay for a dedicated VPN connection that is strong enough to withhold a DDoS attack. These are way more expensive as these are typically dedicated servers allocated to you on a lease. Your typical VPN connection will not be strong enough to handle an average DDoS attack as you share that VPN server with the other subscribers of your VPN provider. This same concept applies to your ISP at home. You share your bandwidth with your neighbors. This is why your internet is faster at night when everyone is sleeping.
+
+The only "privacy" advantage VPNs offer is their capability to prevent anyone from obtaining the publicly available information tied to your real IP address. Masking your IP address also will make DDoS attacks more convenient for you, as well as stop a malicious actor from obtaining your real IP address.
+
+Another advantage of a malicious actor not having your real IP address is the capability to use your real IP address to discover internet-facing devices on your network. This doesn't include devices on your network that are connected to the internet, that would be all of your devices. This only includes devices on your network that can be connected to from outside of your network, aka devices on your network that can be remotely connected to from anywhere in the world (outside of your LAN). Every network is different, but an example may include an IOT device that comes built in with a web interface designed to be remotely accessible to administrators (common with many IP cameras). 
+
+This is more of a security problem than a privacy problem, as the only "privacy" advantage would be an attacker not having the capability to scan your network to discover these devices due to you using a VPN, which would prevent them from obtaining your real IP address in able to perform the scan in the first place. If anything, a VPN slightly increases the security of your network as it prevents anyone from obtaining your real IP to scan your network. It doesn't make your privacy any better (the potential private data stored on said scannable systems open to the internet) because if you lack the appropriate security knowledge to where you're incapable of securing an internet facing system from attackers, then a VPN isn't going to be the magic bullet that saves the day.
+
+A VPN may benefit you in one or more of these situations, but it's important to note that the majority of people do not care about most of what was mentioned. We may over analyze our privacy as security minded individuals. Most don't.
+
+### Why VPNs are not good for privacy
+
+The big problem today is the issue we have with the bulk collection of data. As we already discussed, our ISP is no exception to this problem as they log a lot of information about our internet activity.
+
+When you're using a VPN, your VPN provider essentially becomes your ISP. You're shifting all of your trust into your VPN provider, and you're providing your VPN provider with all of the information that you were once providing your ISP, if not more. When you're using a VPN, the only thing that your ISP can see is that you're sending encrypted data to a VPN server IP address (and remember, your ISP can see that the server belongs to a VPN due to the public information tied to IP addresses). 
+
+VPNs do not solve the issue of data collection as VPNs also collect your data similar to your ISP.
+
+Something many people don't know is that VPNs are legally allowed to lie about their data collection habits. Many VPN providers will claim they do not keep logs of your activities for marketing reasons when they in reality do. There's been many instances where big name VPN providers were caught red handed keeping logs of their users. These logs were then handed off to law enforcement after they subpoenaed the VPN provider for user logs.  
+
+If you're interested, you can read an example of this with the following link:
+
+  https://www.zdnet.com/article/the-800-lectric-xp-lite-e-bike-is-a-sheer-joy-to-ride/
+
+Many big name VPN providers were caught keeping user logs despite claiming they don't meanwhile they are still performing strong in the VPN industry. Why do you think people continue to use VPNs even after all of the evidence of them keeping your logs? Probably because VPNs aren't as good for privacy as you think. Perhaps there's bigger and better reasons to use VPNs? 
+
+Despite all of the evidence, you also have to use a little bit of common sense. Why would VPN providers NOT log your data??? Data is so valuable in todays world that they would be losing out on a lot of potential profit if they chose to opt out of data collection entirely as most claim they do. What if you're using a VPN who offers cheaper subscriptions than their competitors? How do you think they're making up that profit? The are probably selling your data. Data collection is even more likely with cheaper VPNs. 
+
+// date retention laws
+// nordvpn panama logic
