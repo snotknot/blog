@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "snotknot's security thread (part 2)"
-published: true
+published: false
 permalink: "/snotknot-security-thread-part-2.html"
 ---
 
