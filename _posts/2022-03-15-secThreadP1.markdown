@@ -321,4 +321,4 @@ Buying products from big name companies may be questionable, but what about buyi
 
 ## Part II
 
-ETA: Summer 2022
+ETA: Winter 2022 (December likely)
