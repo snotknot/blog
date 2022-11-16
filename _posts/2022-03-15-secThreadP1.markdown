@@ -5,6 +5,8 @@ published: true
 permalink: "/snotknot-security-thread-part-1.html"
 ---
 
+If you're reading this message, that means this site is not fully released yet. You found the link probably through one of my social medias. I'm still actively working on this site. Although I haven't advertised this blog anywhere, it's still public and people may come and go. You're one of them! So please keep in mind that I am still working on this, including part II of the security thread (likely will be relased in December).
+
 Last Updated: 6/4/22
 
 Update Log: 
