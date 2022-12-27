@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "LastPass Hack: Why you shouldn't use cloud-based password managers"
 published: true
@@ -22,7 +22,7 @@ A LastPass developer account had been breached a few months ago. I'm assuming th
 On December 22, 2022, LastPass put out an update that the breach was indeed a lot more damaging than they initially thought.
 
 Link to LastPass's statement:
-[Notice of Recent Security Incident] (https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/)
+https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/
 
 The statement says one of their backup servers had been compromised a while back and they are only now realizing the severity of the breach. They go on to explain that the compromised server is separate from their main production servers, meaning the hackers only obtained whatever was on that particular backup cloud server. 
 
@@ -72,7 +72,7 @@ Online cloud-based password managers such as LastPass, Dashlane, etc. offer many
 
 Why does this matter? Why should you use something better like a self hosted open-soured password manager? Not only are your passwords not open to the internet (unless you allow them to be), but you can rest assure knowing the software is doing exactly as advertised due to the source code being public. You're 100% certain what code is running, when, how well it's running, and so on. You can modify it too if need be. Open-sourced projects and why they're great is a conversation for another day, but we will be focusing on the basics for the sake of password managers.
 
-When you run software with proprietary source code (closed-source), you don't have a way of knowing what code is running on your system. How well is the code written? How secure is it? Do they **actually** follow their "zero knowledge" policy where they claim to abide by security practices such as not storing your master password? You can read more about that [here] (https://www.lastpass.com/security/zero-knowledge-security). These are all things you have no way of knowing for sure with closed-source proprietary software. It's all "he said, she said". The goal with open-sourced software is to not be gullible. You as the user should have the luxury of knowing exactly what is happening with software on your computer without blindly trusting an entity. 
+When you run software with proprietary source code (closed-source), you don't have a way of knowing what code is running on your system. How well is the code written? How secure is it? Do they **actually** follow their "zero knowledge" policy where they claim to abide by security practices such as not storing your master password? You can read more about that here: https://www.lastpass.com/security/zero-knowledge-security. These are all things you have no way of knowing for sure with closed-source proprietary software. It's all "he said, she said". The goal with open-sourced software is to not be gullible. You as the user should have the luxury of knowing exactly what is happening with software on your computer without blindly trusting an entity. 
 
 The final issue we'll be discussing with closed-source password managers, which are the same issues other closed-source software have as well, is trusting the development team responsible for maintaining the software's security. These are the only people who have access to the source code. You're trusting them to actively find and patch security vulnerabilities in the software that you are an end user of. This is the definition of security by obscurity. With open-sourced software, there are millions of people who can analyze the source code, find these vulnerabilities and report them to get them patched. Many of these people are also way more experienced than the average team responsible for maintaining most closed-source software. This indeed means there are more bad actors who can analyze the source code to develope exploits, but there are way more good guys actively finding and patching these vulnerabilities before the bad guys can discover them.
 
