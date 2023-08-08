@@ -7,6 +7,6 @@ permalink: "/testPost"
 
 nahhhhhh
 	
-![test]({{site.url}}/assets/screenshot.jpg)
+![test](/assets/screenshot.jpg)
 
 
