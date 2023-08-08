@@ -6,5 +6,6 @@ permalink: "/testPost"
 ---
 
 test123
+	
+![urmomgoestocollege](/assets/images/sun-rise.jpg)
 
-![exampleImage](/assets/sun-rise.jpg)
