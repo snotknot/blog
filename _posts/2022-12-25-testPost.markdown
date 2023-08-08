@@ -5,8 +5,8 @@ published: true
 permalink: "/testPost"
 ---
 
-nahhhhhhTTTTTT
+pic ;) : 
 	
-![test](/assets/screenshot.jpg)
+![test](https://imgur.com/gallery/ZKRac5X)
 
 
