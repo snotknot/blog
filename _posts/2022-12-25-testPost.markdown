@@ -7,5 +7,5 @@ permalink: "/testPost"
 
 test1234
 	
-![urmomgoestocollege](/assets/images/sun-rise.jpg)
+![image](/assets/images/sun-rise.jpg)
 
