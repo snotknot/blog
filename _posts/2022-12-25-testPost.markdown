@@ -5,7 +5,8 @@ published: true
 permalink: "/testPost"
 ---
 
-yassss
+nahhhhhh
 	
-![My helpful screenshot](/assets/screenshot.jpg)
+![test][{{site.url}}/assets/screenshot.jpg]
+
 
