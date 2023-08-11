@@ -5,8 +5,9 @@ published: false
 permalink: "/testPost"
 ---
 
-piccccc ;) : 
+pics ;) : 
 	
 ![test](https://i.imgur.com/4LdtsQs.jpg)
 
+![test2](https://i.imgur.com/KiPB9mt.jpeg)
 
