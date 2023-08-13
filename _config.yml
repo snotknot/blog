@@ -27,7 +27,7 @@ twitter_username: snotknot
 github_username:  snotknot
 
 # Build settings
-theme: Minima
+theme: Hacker
 plugins:
   - jekyll-feed
 
