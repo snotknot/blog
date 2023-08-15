@@ -5,8 +5,6 @@ published: true
 permalink: "/snotknot-security-thread-part-1.html"
 ---
 
-If you're reading this message, that means this site is not fully released yet. You found the link probably through one of my social medias. I'm still actively working on this site. Although I haven't advertised this blog anywhere, it's still public and people may come and go. You're one of them! So please keep in mind that I am still working on this, including part II of the security thread.
-
 Last Updated: 4/25/23
 
 Update Log: 
@@ -20,7 +18,15 @@ Update Log:
 
 Hello all, I go by “snotknot” online and I am a security enthusiast who wants to share my knowledge. I’ve always wanted to write one of these threads because there’s a lot of misinformation out there. Before we get started, it’s important to know that although I am passionate about what I will be teaching in these threads, that doesn’t mean you should blindly trust everything I say. You definitely need to do your own research too and you should use this thread more as a template and not a “go-to” resource. It’s easy to know what’s fact and what’s lies when you become more experienced at the craft, but as a beginner it can be tricky and you’re likely to be deceived. This thread of course won’t be bullet proof and there may be some things that I get wrong. 
 
-Upon reading these threads, you will obtain a greater understanding on the techniques many across the globe use to remain anonymous on the internet. You will also learn the methods many use to enhance their privacy and security online. The title is a bit misleading, it's not just a security thread as you'll quickly come to realize. I will be sharing the methods that have been working great for me and many others for a long time. Part I (this thread) will focus on teaching the reader the basics of many concepts and tools that we will be leveraging in future to come parts (II, III, etc.). Part I is just a terminology run down. These threads will not reinvent the wheel with topics or information. Everything taught here is public knowledge. There are other threads just like these on the internet, I am not a pioneer. Give other threads a read too. These threads are intended for all audiences rather if you’re a security enthusiast, journalist, activist, vigilante, whistleblower, or whoever you may be. These threads are purely educational. I do not support or condone illegal activities. Throughout this thread in particular, you will realize that I often reference hackers for my examples to help demonstrate points. I do that not because I condone hacking, but rather because hackers are big targets for Law Enforcement. This makes them relatively good examples to use when it comes to the topic of anonymity, which is a topic we will be covering on quite a bit throughout these threads.
+Upon reading these threads, you will obtain a greater understanding of the techniques that the best at their craft use to remain anonymous on the internet. You will also learn the methods many of them use to enhance their privacy and security online. The title is a bit misleading, it's not just a security thread as you'll quickly come to realize.
+
+I cannot stress this enough - These threads do not cover "everything". Teaching EVERY detail of EVERY aspect of these various crafts would be way too time consuming and overall not efficient as there are way too many situational variables that differ from person to person. On top of that: You, the reader, will not remember everything taught regardless. You are better off instead trying to learn these various topics via trial and error and it will all come naturally with time.
+
+Reading only does so much, you also need to have some hands on experience to balance it out. You can spend 5 years reading books on how to drive as well as the laws, etc., but you will never actually learn driving if you don't get behind the wheel. Make sense?
+
+![](https://cdn.i-scmp.com/sites/default/files/styles/landscape/public/d8/images/canvas/2022/09/15/04964401-037d-434c-88d4-765f2e8ddd1f_5b91181c.jpg?itok=AxQ-gGmm&v=1663223815)
+
+Throughout this thread in particular, you will realize that I often reference hackers for my examples to help demonstrate points. I do that not because I condone hacking, but rather because hackers are big targets for Law Enforcement. This makes them relatively good examples to use when it comes to the topic of anonymity, which is a topic we will be covering on quite a bit throughout these threads.
 
 Lastly, don’t expect this thread to be proofread by an English professor. There will be some grammatical errors here and there, and there will certainly be lots of comma splicing and run-on sentences. 
 
