@@ -56,11 +56,26 @@ It’s kind of like saying you can rely on autopilot in a car if you don’t kno
 
 ![](https://www.teslarati.com/wp-content/uploads/2021/03/tesla-model-y-crash-detroit.jpeg)
 
-Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet because although they are amazing resources and granted they do most of the work, they’re not fully bulletproof and you may need to adjust your setup or methods to increase your anonymity as needed. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood. 
+Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet. You can't just rely on a VPN and a password manager for your security, or a cookie auto delete extension for your privacy. These tools are not bulletproof and you may (and will) need to adjust your setup as necessary. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood. 
 	
-You need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Let’s say you’re a whistleblower live booting Tails and using Tor to conduct your activities. Your Tails install is connected to your home Wi-Fi and you’re storing files that are evidence to your Tails persistent volume with no intentions of wiping that USB. Notice how I mentioned you’re using your home Wi-Fi and storing evidence to your USB without any intentions of ever wiping it? This is bad opsec. That’s bad practice and consistently following these bad habits will one day come back for you. We'll go more into detail on why this isn't such a great idea soon (part II). Granted nobody is perfect but that’s why you should learn the basics of whatever you’re doing so that you actually know how it works and what’s going on behind the scenes, therefore making it less likely for you to make a mistake. 
+You need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Let’s say you’re a whistleblower live booting Tails and using Tor to conduct your activities. Your Tails install is connected to your home Wi-Fi and you’re storing files that are evidence to your Tails persistent volume with no intentions of wiping that USB. Notice how I mentioned you’re using your home Wi-Fi and storing evidence to your USB without any intentions of ever wiping it? This is bad opsec. That’s bad practice and consistently following these bad habits will one day come back for you.
+
+Granted nobody is perfect but that’s why you should learn the basics of whatever you’re doing so that you actually know how it works and what’s going on behind the scenes, therefore making it less likely for you to make a mistake. Do you think career black-hat hackers know every detail about Nmap or the other tools they use? Most of them do not, but what they do understand quite well is how these tools work under the hood from a technical perspective.
 
 I fully understand that if you’re wanting increased anonymity, then using Tails without the basic computing and networking knowledge can benefit you. What I’m trying to say is if you require a heightened level of anonymity where you absolutely cannot be identified under any circumstances (i.e., if you're a whisleblower), then it's an absolute must to learn what is going on under the hood to higher the chances of you being successful and not being unmasked.
+
+This is the mindset that I learned from many of my mentors and I encourage you to adopt the same mindset. When you learn something, try to establish a knowledge pyramid; where foundational building blocks are at the bottom of the pyramid and the more advanced will be at the top. Work your way up. 
+
+Are you trying to be a software developer? Don't start with writing code, hold the fuck on... How is that code compiled? How is that code ran on the CPU? How is that program loaded into memory and how does the CPU execute instructions off the memory stack? 
+
+Learning CPU instruction set architectures such as x86 as well as x86 assembly is not easy and will take time. I will guide you to some useful resources.
+
+Here is a blog post made by cocomelonc. I recommend checking out his other blogs as well. This blog post will introduce you to x86 assembly.
+
+"Malware analysis - part 1: My intro to x86 assembly", by **cocomelonc**:
+[https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html](https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html)
+
+
 
 ## Reality check
 
