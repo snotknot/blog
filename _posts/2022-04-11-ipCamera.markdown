@@ -5,6 +5,8 @@ published: true
 permalink: "/ip-cameras.html"
 ---
 
+![](https://m.media-amazon.com/images/I/41EWjkikPUL._AC_UF1000,1000_QL80_.jpg)
+
 This post is designed to be an informational post about the in depth security risks that come with owning an IP Camera. The only viable solution to help reduce this problem is via awareness and bringing its attention to as many people as possible. With that said, do not recreate anything demonstrated or mentioned within this post.
 
 Finding IP camera video feeds that are publicly available to the internet has been a hobby of mine for a few years now. Over the years, I've discovered many questionable, weird, and creepy camera feeds that overall should definitely not be public to the internet. Unfortunately, the vast majority of people who buy these cameras don't know how to properly secure them and end up using the default settings which typically end up being insecure. Almost all of the people who buy these cameras are also unaware of the fact that the camera's video feed can be accessed by anyone in the world.
