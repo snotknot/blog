@@ -5,16 +5,9 @@ published: true
 permalink: "/snotknot-security-thread-part-1.html"
 ---
 
-Last Updated: 4/25/23
-
-Update Log: 
-
-- New section, "Privacy vs. Anonymity" was added
-- Many sections were modified for easier understanding
-- More convenient formatting
+Last Updated: 8/15/23
 
 ## Introduction
-
 
 Hello all, I go by “snotknot” online and I am a security enthusiast who wants to share my knowledge. I’ve always wanted to write one of these threads because there’s a lot of misinformation out there. Before we get started, it’s important to know that although I am passionate about what I will be teaching in these threads, that doesn’t mean you should blindly trust everything I say. You definitely need to do your own research too and you should use this thread more as a template and not a “go-to” resource. It’s easy to know what’s fact and what’s lies when you become more experienced at the craft, but as a beginner it can be tricky and you’re likely to be deceived. This thread of course won’t be bullet proof and there may be some things that I get wrong. 
 
@@ -37,27 +30,33 @@ Please take the time to read the thread I have linked below. I highly recommend 
 Jolly Roger’s Security Thread (2014)
 
 Link (clearnet): 
-
-	https://afga.neocities.org/cyber/1B-JOLLY-ROGER.PDF
+[https://afga.neocities.org/cyber/1B-JOLLY-ROGER.PDF](https://afga.neocities.org/cyber/1B-JOLLY-ROGER.PDF)
 	
 Mirror (clearnet): 
-
-	https://www.lopp.net/pdf/Jolly_Rogers_Security_thread_for_Beginners.pdf
-
-**tips for successfully reading this thread** 
-- Don’t skip ahead/skim through the thread, read in order
-- read the jolly rogers security thread before going further past this point
-- “OPSEC” and “Forensics” in their entirety are both sections that you should definitely pay attention to. They’re very important.
-
+[https://www.lopp.net/pdf/Jolly_Rogers_Security_thread_for_Beginners.pdf](https://www.lopp.net/pdf/Jolly_Rogers_Security_thread_for_Beginners.pdf)
 
 ## Prerequisites
 
-- Entry level IT knowledge on computing (Parts of a computer, know how each component functions)
+- Basic computer science fundamentals (Know the basic IT knowledge that would be required to land many jobs (not interview questions, but rather important knowledge that you would expect the "IT guy" to have). Listing the components inside of a computer does not count. What's an ISA? What's x86? How many bits are in a byte? What's hexadecimal? Do you know the very basics of how a stack works?)
 - Networking Fundamentals (IP addresses, subnetting, OSI Model, Routing, Switching)
 - Virtual Machine knowledge and experience
-- Linux fundamentals (terminal basics)
+- Linux fundamentals
 
-If you're wanting to remain anonymous, keyword, "if", above is what I personally would recommend learning. I already know this is going to generate a fuck ton of controversy but I am a firm believer that you should learn the basics of computers and networking before you rely on it to keep you anonymous. Many people believe there is a “go-to cheat code” that beginners can skip to in able to remain anonymous. It doesn’t work like that. Foundational building blocks are crucial to focus on instead of cheating and skipping the basics. You have to walk before you can run. It’s kind of like saying you can rely on autopilot in a car if you don’t know how to drive. No, you need to learn the basics of driving as well as HOW TO DRIVE so you can take over if autopilot fails you. You can’t rely on it.. we’re not there yet with technology. Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet because although they are amazing resources and granted they do most of the work, they’re not fully bulletproof and you may need to adjust your setup or methods to increase your anonymity as needed. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood. 
+**tips for successfully reading this thread** 
+- Don’t skip ahead/skim through the thread, read in order
+- genuinely understand the prereqs listed above before proceeding past this point
+- read the jolly rogers security thread before proceeding past this point
+- if there is something you do not understand, use Google to fill in any voids
+  
+If you're wanting to remain anonymous, maximize your security, privacy and so on... then above is what I personally would recommend learning. I already know this is going to generate a fuck ton of controversy but I am a firm believer that you should learn the basics of computers and networking before you rely on them to keep you anonymous. 
+
+Many people believe there is a “go-to cheat code” that beginners can skip to in able to remain anonymous, maximize their security, etc. It doesn’t work like that. Foundational building blocks are crucial to focus on instead of cheating and skipping the basics. You have to walk before you can run if you want to master any of these crafts. 
+
+It’s kind of like saying you can rely on autopilot in a car if you don’t know how to drive. No, you need to learn the basics of driving as well as HOW TO DRIVE so you can take over if autopilot fails you. You can’t rely on it.. we’re not there yet with technology. 
+
+![](https://www.teslarati.com/wp-content/uploads/2021/03/tesla-model-y-crash-detroit.jpeg)
+
+Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet because although they are amazing resources and granted they do most of the work, they’re not fully bulletproof and you may need to adjust your setup or methods to increase your anonymity as needed. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood. 
 	
 You need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Let’s say you’re a whistleblower live booting Tails and using Tor to conduct your activities. Your Tails install is connected to your home Wi-Fi and you’re storing files that are evidence to your Tails persistent volume with no intentions of wiping that USB. Notice how I mentioned you’re using your home Wi-Fi and storing evidence to your USB without any intentions of ever wiping it? This is bad opsec. That’s bad practice and consistently following these bad habits will one day come back for you. We'll go more into detail on why this isn't such a great idea soon (part II). Granted nobody is perfect but that’s why you should learn the basics of whatever you’re doing so that you actually know how it works and what’s going on behind the scenes, therefore making it less likely for you to make a mistake. 
 
