@@ -37,14 +37,13 @@ Mirror (clearnet):
 
 ## Prerequisites
 
-- Basic computer science fundamentals (Know the basic IT knowledge that would be required to land many jobs (not interview questions, but rather important knowledge that you would expect the "IT guy" to have). Listing the components inside of a computer does not count. What's an ISA? What's x86? How many bits are in a byte? What's hexadecimal? Do you know the very basics of how a stack works?)
+- Basic computer science fundamentals 
 - Networking Fundamentals (IP addresses, subnetting, OSI Model, Routing, Switching)
 - Virtual Machine knowledge and experience
 - Linux fundamentals
 
 **tips for successfully reading this thread** 
 - Don’t skip ahead/skim through the thread, read in order
-- genuinely understand the prereqs listed above before proceeding past this point
 - read the jolly rogers security thread before proceeding past this point
 - if there is something you do not understand, use Google to fill in any voids
   
@@ -56,13 +55,13 @@ It’s kind of like saying you can rely on autopilot in a car if you don’t kno
 
 ![](https://www.teslarati.com/wp-content/uploads/2021/03/tesla-model-y-crash-detroit.jpeg)
 
-Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet. You can't just rely on a VPN and a password manager for your security, or a cookie auto delete extension for your privacy. These tools are not bulletproof and you may (and will) need to adjust your setup as necessary. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood. 
-	
-You need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Let’s say you’re a whistleblower live booting Tails and using Tor to conduct your activities. Your Tails install is connected to your home Wi-Fi and you’re storing files that are evidence to your Tails persistent volume with no intentions of wiping that USB. Notice how I mentioned you’re using your home Wi-Fi and storing evidence to your USB without any intentions of ever wiping it? This is bad opsec. That’s bad practice and consistently following these bad habits will one day come back for you.
+Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet. You can't just rely on a VPN and a password manager for your security, or a cookie auto delete extension for your privacy. These tools are not bulletproof and you may (and will) need to adjust your setup as necessary. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood.
+
+If you're, for example, trying to be anonymous, then you need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Let’s say you’re a whistleblower live booting Tails and using Tor to conduct your activities. Your Tails install is connected to your home Wi-Fi and you’re storing files that are evidence to your Tails persistent volume with no intentions of wiping that USB. Notice how I mentioned you’re using your home Wi-Fi and storing evidence to your USB without any intentions of ever wiping it? This is bad opsec. That’s bad practice and consistently following these bad habits will one day come back for you.
 
 Granted nobody is perfect but that’s why you should learn the basics of whatever you’re doing so that you actually know how it works and what’s going on behind the scenes, therefore making it less likely for you to make a mistake. Do you think career black-hat hackers know every detail about Nmap or the other tools they use? Most of them do not, but what they do understand quite well is how these tools work under the hood from a technical perspective.
 
-I fully understand that if you’re wanting increased anonymity, then using Tails without the basic computing and networking knowledge can benefit you. What I’m trying to say is if you require a heightened level of anonymity where you absolutely cannot be identified under any circumstances (i.e., if you're a whisleblower), then it's an absolute must to learn what is going on under the hood to higher the chances of you being successful and not being unmasked.
+Someone once told me this: Forensic investigators use automated forensic tools to make their lives easier. This is also known as "push button forensics", where you just "push a button" and the tool does everything for them. If they did not have these tools at their disposal, they would still have the knowledge on how to parse these different OS artifacts manually without relying on an automated toolkit. 
 
 This is the mindset that I learned from many of my mentors and I encourage you to adopt the same mindset. When you learn something, try to establish a knowledge pyramid; where foundational building blocks are at the bottom of the pyramid and the more advanced will be at the top. Work your way up. 
 
@@ -75,17 +74,13 @@ Here is a blog post made by cocomelonc. I recommend checking out his other blogs
 "Malware analysis - part 1: My intro to x86 assembly", by **cocomelonc**:
 [https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html](https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html)
 
-
+I fully understand that if you’re wanting increased anonymity, for example, then using tools such as Tails without the basic computing and networking knowledge can benefit you. What I’m trying to say is if you require a heightened level of anonymity where you absolutely cannot be identified under any circumstances (i.e., if you're a whisleblower), then it's an absolute must to learn what is going on under the hood to higher the chances of you being successful and not being unmasked.
 
 ## Reality check
 
 Unfortunately, the world that we live in today does not value privacy. They have fucking smart fridges now collecting your data as well as the other 50 IOT devices that you probably have in your house. Everything is becoming “modern” and integrating technology for no reason. Some useful, most are pointless and a reason to steal and sell your data. People these days are so stupid that companies are like “we have this useful product that can make your life easier but it spies on you and collects your data!” and people eat that shit up and only see the pros and don’t give a fuck about the privacy cons because the lack of privacy is so normalized in today’s world. Companies are slowly shoving the mindset of “privacy doesn’t matter” into the minds of our generation to “normalize” it for their own gain. The problem with security minded individuals aren’t that these devices exist, but rather their lack of configuration to better suit your privacy and needs. How do you really know your amazon Alexa isn’t just a microphone in your living room for the feds or hackers to leverage? Any modern day  phone is sealed shut and are a pain in the ass to open without using Bob the Builder’s tool kit and avoiding the warranty, so how do you know your phone is really off when you power it off? The lack of reassurance from proprietary closed source software and hardware is what makes them scary and questionable by many across the globe. You’re essentially just trusting the manufacturing company without any reason to be secure.
 	
-If you're interested, Edward Snowden covers more on this topic on his podcast with Joe Rogan. You can check it out below.
-
-Link:
-
-	https://www.youtube.com/watch?v=VFns39RXPrU
+If you're interested, Edward Snowden covers more on this topic on his podcast with Joe Rogan. You can check it out [here](https://www.youtube.com/watch?v=VFns39RXPrU).
 	
 I didn’t bring anything new to the table with the paragraph above, everybody knows that privacy is a myth today but really the point of that paragraph is to refresh your mind with reality and to educate the people who maybe didn’t already know. Now that you’re in the right mindset, it’s also important to know that there is no such thing as being 100% anonymous on the internet. There are of course things that you can do to increase your anonymity, but honestly your OPSEC (things you do that can aid in identifying you) is what matters the most. We’ll discuss OPSEC in the next section if you’re confused so don’t worry. You could take every possible step to increase your security online successfully but if you make one stupid OPSEC mistake to blow your cover then it’s all game over. It only takes one slip up. 
 
@@ -125,8 +120,6 @@ Pros of using DuckDuckGo:
 
 This gives us more power over who has our data as it guarantees other big companies (Microsoft, and Google) aren't actively spying on us and collecting our data. With the setup above, it rules Google and Microsoft out of the picture. If we don't use any social media, then Twitter, Facebook, etc. won't have our data either. This allows us to pick and choose exactly what companies do and don't have our data. The companies who have our data is determined by which companies we register accounts for and actively use. Privacy also gives us the option to decide who has access to our data, and for how long. For example, I despise Google, but I can't live without YouTube. This means that Google can still collect my data whenever I'm on YouTube. That's fine. I'm willing to trade off some data collection for access to YouTube. Allowing Google to collect my data for the hour I'm on YouTube every day is better than allowing Google to always spy on me by constantly using their various products such as YouTube, and their search engine Google 24/7. Less data is being collected on me, for a shorter time frame. The second I disconnect from Youtube, I'm completely disconnected from all major tech companies as YouTube is the only social media that I "actually" use. In contrast, compare this to if I used every social media out there while running Windows and Google Chrome. This would mean Microsoft, Google, Twitter, Reddit, Facebook, and Tiktok at the minumum would all be actively collecting my data 24/7. Jesus fucking christ. No thank you.
 
-With anonymity, your average person won't care who has access to thier data, they just don't want anyone to have the capability to tie that data to them as an individual. They also typically don't care who can see the actions they're performing. Again, they just don't want those actions to be tied to them as an individual. Take this with a grain of salt though, as a lot of anonymous individuals actually do care who has access to their data and who can see their actions. Let's use the infamous hacker example. Hackers typically will make a dedicated effort to strategically control who can and can't see their data and actions. The more entities that log their actions or collect their data, are more actions and data that can be used to potentially unmask them if they slip up and make an opsec mistake. Cybercriminals typically are the only subset of people who this will apply to. Your average person likely won't care. 
-
 ## The Dark Web, The Deep Web, The Clearnet, and the differences
 
 If you ask the average Joe what the dark web is, they likely will have no idea what you're talking about. Many have "heard" of the dark web but never knew it actually existed. Well, contrary to their belief, the dark web is very much a thing. 
@@ -156,31 +149,22 @@ Dread is a great example. Dread is essentially a free-speech version of reddit t
 I want to take a minute to explain the Silk Road, which was an anonymous darknet marketplace used to sell drugs and other services. In fact, the Jolly Rogers security thread that you read was written by a silk road user. The Silk Road doesn't exist today as the owner of it was arrested and the site was shutdown. However, there are still many other marketplaces today that are trying to mimic the success of the Silk Road. Everyone on the dark web knows the origin of the Silk Road as it's a staple in the Dark web world. I'll link a documentary down below, I highly recommend watching it as there are many OPSEC mistakes to learn from that Ross (the owner) made that lead to not only his arrest, but many others as well as the ultimate shutdown of the Silk Road.
 
 Documentary:
-
-	https://www.youtube.com/watch?v=GpMP6Nh3FvU
+[https://www.youtube.com/watch?v=GpMP6Nh3FvU](https://www.youtube.com/watch?v=GpMP6Nh3FvU)
 
 OpSec lessons: 
-
-	https://www.youtube.com/watch?v=HBTYVVUBAGs&t	
-
-
+[https://www.youtube.com/watch?v=HBTYVVUBAGs&t](https://www.youtube.com/watch?v=HBTYVVUBAGs&t)
 
 #### Deep Web 
 
 The deep web is essentially any part of the clearnet (or clear web) that cannot be indexed by a search engine. For example, if you log into your Google account and go into your settings, that settings page lives in the deep web. You obviously can't just find the URL to your Google account's settings on the Google search engine, that doesnt make any sense. Even if you send that URL to someone, they're going to have to authenticate with your credentials before they can even access your settings page. There's a lot of underlying backend services and webservers that are responsible for powering a variety of other frontend services and webservers. That's a big part of the deepweb.
 
-
-
 #### Clearnet
 
 The clearnet, also known as the "clear web" or "surface web", are the normal parts of the internet that you're used to. Google, YouTube, that's all the clearnet. If you don't need Tor to access it, it's mostly safe to say it's the clearnet. 
 
-
-
 #### Black Web 
 
 The "black web" doesn't exist. When people say "black web", what they really mean is the dark web. If you don't believe me, just google "black web" and google will be like "wtf are you talking about? you mean the dark web?"
-
 
 ## OPSEC
 
@@ -202,8 +186,8 @@ Kevin Mitnick is a great example. He was (and still is, just on the good side no
 
 Link (clearnet):
 
-	https://www.indybay.org/newsitems/2012/03/07/18708917.php
- 
+[https://www.indybay.org/newsitems/2012/03/07/18708917.php](https://www.indybay.org/newsitems/2012/03/07/18708917.php) 
+
 ## OPSEC Reality Check
 
 This section is suited mainly for those who have an anonymous life. Even if you don't have an anonymous life or if you don't care about people identifying you, I still recommend reading this section as it will shine light towards the reality of how scary the internet can be even when you make the smallest things public. None of this really matters in other situations unless if you're specifically trying to not be identified.
@@ -260,7 +244,7 @@ Having a BIOS password is also a pretty smart idea. This will obviously require 
 	
 If you don’t know what Tails is then you didn’t read the Jolly Roger’s security thread like I told you to, so go back and fucking read it moron. ;). I love tails, it’s great. If you want to try it out, you can install the ISO from their site and virtualize it with KVM, Virtual Box, or whatever hypervisor of choice. Only run Tails in a VM if you’re testing out the features to see if you like it (some features also don’t work virtualized or are pointless). Don’t unironically virtualize Tails if you’re genuinely wanting privacy. I’ll discuss a couple reasons not to, but for a full list you can visit:
 
-	https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html. 
+[https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html](https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html)
 
 Tails is one of the best tools that you can utilize if you’re wanting to remain anonymous online. Even for general security needs, depending on your situation. Tails is considered an “amnesiac” operating system because it’s an anti-forensics operating system that runs portable on external media such as a flash drive. It’s a live boot OS that comes prepackaged with many security driven features by default such as automatically spoofing your MAC address with every boot, routing your traffic over the  Tor network, and much more. Tails does so much more than that and if you want a full comprehensive list then you should check their website. They go into all of the details.  I only use tails if I want to be anonymous, I don’t daily drive Tails as my main OS or use it to log into my personal online accounts. That’s fucking stupid. You either go all out and remain fully anonymous with Tails or you use a normal setup such as Windows, MacOS or Linux. There’s no in between in most cases. Most people use tails if they want to be a ghost and leave zero trace of their activity as if nothing ever happened. You can do that if you know how to properly utilize Tails and its features. The reason why tails is deployed as a live boot is to keep as much off your actual computer’s hard drive as possible. When you run a virtual machine, that virtual machine leaves traces on your host machine. How do you think that VM runs? It’s running locally on your computer as you hopefully know. Leaving traces of evidence on your computer obviously isn’t the best idea so you need to prevent that. Tails does that for you since it’s a portable plug and play OS. You’re just using your computer as the “control station” to control Tails. Also, do not download anything to disk on Tails. Many people believe that since they’re booting off a Tails USB, that any files they download will be stored to the USB. This is not true, the file will be temporarily stored to your computers hard drive. If you download something, specify the download location to your persistent volume (google “tails persistent volume tutorial”, if you don’t know what it os. it’s very easy to setup) or another safe option such as another USB. Just remember that if the file is potential evidence, whatever drive it’s on will need to be wiped afterwards. Wiping a file instead of an entire drive is also a valuable option in some situations but it’s just overall easier and also more secure to wipe an entire drive. I won’t show you how to use Tails. I promise it’s not hard… it really isn’t. Do 5 minutes of googling and watch a YouTube video or two and I you’ll get it in no time. Tails also isn’t the only “security driven OS” out there. There’s many, but Tails, QubesOS, and Whonix are the most popular.
 	
@@ -285,12 +269,10 @@ Now let’s talk about QubesOS. QubesOS is a security driven OS that uses virtua
 
 QubesOS Intro Link (clearnet): 
 
-	https://www.qubes-os.org/intro/
-
+[https://www.qubes-os.org/intro/](https://www.qubes-os.org/intro/)
 
 QubesOS FAQ Link (clearnet): 
-
-	https://www.qubes-os.org/faq/
+[https://www.qubes-os.org/faq/](https://www.qubes-os.org/faq/)
 
 After reading through the material above, you can start to see how valuable QubesOS is. It really is one of the best options out there if you’re looking to turn a spare workstation you have into a dedicated “privacy friendly” computer. That’s the only way I personally would use QubesOS. The concept of QubesOS is great and it does offer a lot of value at its current state, but daily driving it or replacing it as your main OS is a really bad idea as it can be non user-friendly at times and arise a lot of issues from time to time. If you’re a beginner to Linux or unix environments or IT in general, do not try QubesOS. It is very advanced and will put a fuck ton of stress on a typical user. Don’t let that discourage you though, QubesOS truly is a masterpiece but to utilize the most out of it you need to know how virtualization and compartmentalization works. You need to understand the basics of the true art that is QubesOS, and how it uses isolation to keep your data safe. All of this can be answered on their site. It took me an hour, if that, of reading their site and watching reviews on YouTube to understand how QubesOS works on a basic level. If you have a dedicated drive or computer to store it on, it’s great, but if Windows for example is the only OS on your computer, then don’t expect to replace it with QubesOS and have a fun time. QubesOS is great, but not as your “one OS for everything daily driver” type of great. It’s great for when you want privacy, but other than that you want to boot back into your Linux distro of choice, Windows, MacOS, etc. 
 	
@@ -356,4 +338,4 @@ Buying products from big name companies may be questionable, but what about buyi
 
 ## Part II
 
-ETA: Summer 2023
+Part II can be found [here](https://snotknot.github.io/blog/snotknot-security-thread-part-2.html).
