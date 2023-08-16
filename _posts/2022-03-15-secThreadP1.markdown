@@ -302,9 +302,11 @@ With encryption, you take the data you’re trying to encrypt (plaintext), and y
 
 The goal with encryption is that the data in which is being encrypted is meant to be securely stored temporarily, rather in a system or during transit, and is designed to be decrypted at some point in time. Does that make sense? The data that is encrypted is eventually going to be decrypted. With hashing, there’s no “unhashing” or reversing it back to plaintext with a key like you do with encryption. Once you hash data, there’s no reversing it. You can attempt to crack the hash value (the output result of hashed data), but that often takes a lot of computing power and is typically only successful if it’s a weak string that was hashed such as a weak password. With hashing, you use a hash function (similar to an encryption algorithm (cipher)), and then the hash function will scramble the plaintext data into a fixed-bit string value referred to as the hash value, or “checksum”.  
 
-An example of an MDF checksum: 
+An example of someone running the "Get-FileHash" command in a Powershell instance to get the MDF checksum of an .exe file: 
 
 ![](https://webapps-cdn.esri.com/CDN/support-site/technical-articles-images/000020408/00N39000003LL2C-0EMf2000000FWuI.png)
+
+File hashes are essentially the "fingerprints" of digital files. If even one byte of the file is modified, the file will be assigned a completely different hash value.
 
 That’s the difference between encryption and hashing, that encryption is designed to temporarily secure data and then decrypt it when appropriate, whereas hashing is designed to permanently secure data without ever “dehashing” or “reversing the hash” back to plaintext. 
 	
