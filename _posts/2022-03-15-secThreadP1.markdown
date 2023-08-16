@@ -242,8 +242,8 @@ Having a BIOS password is also a pretty smart idea. This will obviously require 
 
 ## Tails
 
-![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAMAAAA/gEgKAAAAMFBMVEVHcExWNHxWNHxWNHxWNHtWNHxWNHxWNHxWNHxWNHxWNHxWNHxWNHxWNHxVNHxWNHymovKUAAAAD3RSTlMAUotpEEbowHog8tnLojNNh27gAAABDElEQVQokW2SWRLEIAhEEXFfuP9tB4waTU3/SPEUWhRAZKqFP3IhhD9A0i3iCxLNoFiwB4jFzSjYFhcgm5nNAslnASmpCeYDEAQBhpXkE1g0KCdG4gKpsPZI3fULVKAgJ7oD1z6lrMEoPborN+hcBJA33Sd/uSIFcmXnSYEz3FBB7OIqStQjPCAiNwEuB25zvKMUIWWu0iPXrs42gIiyApc0NrdGCwDKIuOcc8a6QRLb8iB+DtqUPpprmFmfyk/rruYJwOXxDGV0ht507E/81Kcgvgl1v6idL18q8lZNO0+VT72ECt9aP2JM71ReM44fwGEVs1d6fy5RetvUI61kOvOW4CO9ePn77+2x+wcalxD8F0onJwAAAABJRU5ErkJggg==)
-	
+![](https://tails.net/contribute/how/promote/material/logo/tails-logo-flat-inverted-notagline.svg)
+
 If you don’t know what Tails is then you didn’t read the Jolly Roger’s security thread like I told you to, so go back and fucking read it moron. ;). I love tails, it’s great. If you want to try it out, you can install the ISO from their site and virtualize it with KVM, Virtual Box, or whatever hypervisor of choice. Only run Tails in a VM if you’re testing out the features to see if you like it (some features also don’t work virtualized or are pointless). Don’t unironically virtualize Tails if you’re genuinely wanting privacy. I’ll discuss a couple reasons not to, but for a full list you can visit:
 
 [https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html](https://tails.boum.org/doc/advanced_topics/virtualization/index.en.html)
