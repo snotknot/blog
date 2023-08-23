@@ -174,7 +174,7 @@ Think of modern encryption as an indestructible wall that cannot under any circu
 
 #### Apple vs. FBI
 
-!()[https://www.trustedreviews.com/wp-content/uploads/sites/54/2016/02/applefbi-1.jpg]
+![](https://www.trustedreviews.com/wp-content/uploads/sites/54/2016/02/applefbi-1.jpg)
 
 Remember in 2015 when the FBI tried to subpoena Apple for the contents stored on one of the phones belonging to one of the San Bernardino shooters? Apple told the FBI to fuck off as even they cannot decrypt the contents stored on their phones (locally, they can still decrypt what's in your iCloud and so forth). This is because iPhones use encryption that is derived from the password that YOU as the end user supply, therefore you're the only person with the key. It would certainly be a whole hell of a lot easier to bruteforce the password of a mobile device as most people use very weak 4 digit pins as their password. This would be relatively easy to crack as there can only be 10000 different combinations. Nowadays we have biometrics that can assist in unlocking our phone. I believe biometric data can be subpoana'd in the U.S. for investigations, do not quote me on that.
 
@@ -194,19 +194,19 @@ UDP, or "User Datagram Protocol" is one of the two most commonly seen internet p
 
 Connection-based protocols will have a dedicated procedure for establishing a session, which is establishing a handshake between the server and client. This "handshake" will be a preliminary, pre-agreed on set of instructions that act as an agreement with information regarding the session and how it will take place. The client will send a packet to the server requesting to establish a connection. This is known in the TCP three-way-handshake as the "SYN" packet. "SYN" is short for synchronize. The server will then respond to the request made from the client with a "SYN/ACK" packet. "SYN/ACK" is short for synchronize acknowledge, which is the server acknowledging the synchronize packet from the client. Finally, the client will send another SYN packet to the server acknowledging the SYN/ACK packet from the server. The three way handshake will finally look like this: (Client) SYN > (Server) SYN/ACK > (Client) ACK. 
 
-!()[https://snabaynetworking.com/wp-content/uploads/2019/10/TCP-3-Way-Handshake-Process-1.jpg]
+![](https://snabaynetworking.com/wp-content/uploads/2019/10/TCP-3-Way-Handshake-Process-1.jpg)
 
 The way these packets are defined are by the packet headers of the TCP protocol. One of the headers will be reserved for flags, as shown below:
 
-!()[https://github.com/snotknot/blog/assets/81799893/dc21ac49-c505-4ddf-8c65-7e0d227b8f3b]
+![](https://github.com/snotknot/blog/assets/81799893/dc21ac49-c505-4ddf-8c65-7e0d227b8f3b)
 
 The various flags:
 
-!()[https://blog.pierky.com/wp-content/uploads/2010/03/tcp-flags1.png]
+![](https://blog.pierky.com/wp-content/uploads/2010/03/tcp-flags1.png)
 
 Flag descriptions:
 
-!()[https://3.bp.blogspot.com/-w9p17Fl_MUo/WpQ6eb0EomI/AAAAAAAAU4M/wX9c6GNjjSMBSpIHh17KAomhpa46ltB8QCLcBGAs/s1600/Screenshot_1.png]
+![](https://3.bp.blogspot.com/-w9p17Fl_MUo/WpQ6eb0EomI/AAAAAAAAU4M/wX9c6GNjjSMBSpIHh17KAomhpa46ltB8QCLcBGAs/s1600/Screenshot_1.png)
 
 These flags are binary based, and the bit responsible for the appropriate flag will be set to "1" to represent "true" or that bit being "turned on". For example, a SYN packet will have the value of "1" for the SYN flag. When this packet arrives at the server, the server will strip down the packet and ultimately analyze the flags in the headers, realizing the bit responsible for the "SYN" flag is set to 1. This is how the server will know the client is trying to establish a connection, because that's what the SYN flag means. The rest of the process is pretty straightforward: the server then responds with the "SYN/ACK" bit set to "1" in the header's flags, then the client responds with another packet with the "SYN" bit set to "1" in the header's flags. The connection is finally established and the client/server are ready to start sending data. 
 
@@ -230,7 +230,7 @@ Were you expecting more?
 
 ## VPN + Tor = bad
 
-!()[https://miro.medium.com/v2/resize:fit:602/0*YoSYl2O6I3fFVeuF.png]
+![](https://miro.medium.com/v2/resize:fit:602/0*YoSYl2O6I3fFVeuF.png)
 
 TLDR: Do not combine a VPN with Tor for anonymity, but rather convenience purposes. VPN's do not offer anonymity. Combining a VPN with Tor, something that does offer anonymity, is useless. 
 
@@ -295,7 +295,7 @@ Encrypt everything.
 
 ## Crypto
 
-!()[https://static.standard.co.uk/2022/12/05/12/SEI133630113%20%282%29.jpg?width=968&auto=webp&quality=100&crop=968%3A645%2Csmart]
+!([](https://static.standard.co.uk/2022/12/05/12/SEI133630113%20%282%29.jpg?width=968&auto=webp&quality=100&crop=968%3A645%2Csmart)
 
 Cryptocurrency is something you need to be aware of to understand security, privacy, and anonymity. It'll come up at one point or another and you'll benefit from having knowledge on it. This will be more apparent if you're interested in anonymity and use the Dark web a lot. You'll see it plenty there. This will be by no means a "get your PHD in crypto" section. 
 
