@@ -108,7 +108,7 @@ Wikipedia:
 [https://en.wikipedia.org/wiki/Linux](https://en.wikipedia.org/wiki/Linux)
 
 Linux in 100 Seconds (Credit: Fireship):
-[[]](https://www.youtube.com/watch?v=rrB13utjYV4)(https://www.youtube.com/watch?v=rrB13utjYV4)
+[](https://www.youtube.com/watch?v=rrB13utjYV4)(https://www.youtube.com/watch?v=rrB13utjYV4)
 
 Below is a video showing you how to virtualize Ubuntu, the most popular Linux distribution, using VirtualBox.
 
@@ -125,15 +125,15 @@ Introduction to Linux and Basic Linux Commands for Beginners (Credit: sakitech):
 These videos posted by Network Direction are what helped me personally learn networking. I took in depth notes on Google Docs and studied them. I advise you doing the same.
 
 Network Fundamentals (Credit: Network Direction):
-[https://www.youtube.com/watch?v=cNwEVYkx2Kk](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8]
+[https://www.youtube.com/watch?v=cNwEVYkx2Kk](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)
 
 Here is another similar playlist made by someone else. I have not watched these personally, however they appear to be high quality and the instructor seems to be good.
 
 Networking Fundamentals (Credit: Practical Networking)
-![https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+[https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 
 Real world example of TCP using Wireshark (Credit: Chris Greer)
-![https://www.youtube.com/watch?v=HCHFX5O1IaQ](https://www.youtube.com/watch?v=HCHFX5O1IaQ)
+[https://www.youtube.com/watch?v=HCHFX5O1IaQ](https://www.youtube.com/watch?v=HCHFX5O1IaQ)
 
 **tips for successfully reading this thread** 
 - Don’t skip ahead/skim through the thread, read in order
