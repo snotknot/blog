@@ -130,6 +130,8 @@ Remember how I said there's always a solution? What if you take the power of enc
 
 ### The Money Shot (Conclusion) 
 
+![](https://media.gettyimages.com/id/78468504/fr/photo/baby-sitting-on-pile-of-money.jpg?s=1024x1024&w=gi&k=20&c=iozbhnfh-kotHI1k80AT_pndIIfvUA0KmqiOY_WrmJQ=)
+
 I know this entire VPN section has been a rollercoaster thus far. The reason I went off on a tangent is due to the fact that there isn't a simple "yes" or "no" answer to VPN's. It depends entirely on your needs.
 
 Somebody who doesn't want their network traffic monitored whether if they're participating in sketchy activities or if they are a privacy enthusiast will need to take extra steps to accomodate their needs. In contrast, if you're an average Joe who isn't doing anything sketchy and if you don't care about your privacy, then who the fuck cares? Use a VPN or don't. Use a shitty VPN or use a good VPN. Are you doing anything illegal online and your threat model is the government/law enforcement (which they will be)? Then you shouldn't be using a VPN regardless. 
@@ -150,7 +152,11 @@ The encryption aspect of VPN's are great for if you're on an open Wi-Fi network 
 
 The "hackers stealing your information while you're online shopping" is the scenario a lot of VPN's use in their advertisements to help sell their product. This isn't going to be true 99% of the time as all well known and reputable e-commerce websites/applications these days will utilize end-to-end encryption, rendering this claim as false. In fact, I can guarantee that there isn't a single reputable online banking/online shopping website/app that doesn't use end-to-end encryption for their service. 
 
-Let's pretend for a second that the "hackers stealing your data while you're online shopping" hypothetical were to be true. Even if you're connected to an open Wi-Fi network at a coffee shop without a VPN, someone intercepting your traffic isn't going to be able to access any juicy information from your Amazon session as if they're playing Watchdogs or performing a hack straight from a movie. This isn't 2007 and you can't just "capture passwords", or anything useful for that matter, over the wire using Wireshark or a similar packet capture application. Once again, this is due to the fact that your session will be utilizing end-to-end encryption. Let's say you're shopping on Amazon.com while using open Wi-Fi without a VPN. Amazon's website runs over the HTTPS protocol, which will use the TLS cryptography protocol to encrypt your traffic flow. Your session will be encrypted regardless if you're using a VPN or not. A VPN will simply add an additional layer of encryption.
+Let's pretend for a second that the "hackers stealing your data while you're online shopping" hypothetical were to be true. Even if you're connected to an open Wi-Fi network at a coffee shop without a VPN, someone intercepting your traffic isn't going to be able to access any juicy information from your Amazon session as if they're playing Watchdogs or performing a hack straight from a movie. This isn't 2007 and you can't just "capture passwords", or anything useful for that matter, over the wire using Wireshark or a similar packet capture application.
+
+![](https://i.imgflip.com/2y9bxw.jpg)
+
+Once again, this is due to the fact that your session will be utilizing end-to-end encryption. Let's say you're shopping on Amazon.com while using open Wi-Fi without a VPN. Amazon's website runs over the HTTPS protocol, which will use the TLS cryptography protocol to encrypt your traffic flow. Your session will be encrypted regardless if you're using a VPN or not. A VPN will simply add an additional layer of encryption.
 
 There are some people who believe that using a VPN is a great advantage for all people as they offer an additional layer of encryption to your network traffic. This is definitely true, a VPN does indeed add an additional layer of encryption on top of your (mostly) encrypted network traffic. However, due to the fact that your online sessions will already be using modern day cryptography to protect your sessions, it would be redundant to use a VPN as an "extra layer" of encryption. You already have an encrypted layer that isn't going to be cracked. The VPN does nothing. Nesting encryption would be useful for something such as encrypting drives with extremely sensitive data on it, not for VPNs.
 
@@ -166,6 +172,10 @@ That means that if you, for example, encrypt a flash drive using an encryption p
 
 Think of modern encryption as an indestructible wall that cannot under any circumstances be destroyed, similar to Bedrock from Minecraft. You can try to dig a whole underneath the wall, climb over it, or simply walk around it... but you can't break it. This is the perfect euphemism for modern day encryption that follows Kerckhoff's principle. The FBI may try their best to find a workaround by attempting to find the encryption key; the password of the encrypted flash drive, but they can't just "remove" the encryption without losing the encrypted data.
 
+#### Apple vs. FBI
+
+!()[https://www.trustedreviews.com/wp-content/uploads/sites/54/2016/02/applefbi-1.jpg]
+
 Remember in 2015 when the FBI tried to subpoena Apple for the contents stored on one of the phones belonging to one of the San Bernardino shooters? Apple told the FBI to fuck off as even they cannot decrypt the contents stored on their phones (locally, they can still decrypt what's in your iCloud and so forth). This is because iPhones use encryption that is derived from the password that YOU as the end user supply, therefore you're the only person with the key. It would certainly be a whole hell of a lot easier to bruteforce the password of a mobile device as most people use very weak 4 digit pins as their password. This would be relatively easy to crack as there can only be 10000 different combinations. Nowadays we have biometrics that can assist in unlocking our phone. I believe biometric data can be subpoana'd in the U.S. for investigations, do not quote me on that.
 
 "Why didn't the FBI just bruteforce the 10000 different potential combinations???"
@@ -178,15 +188,31 @@ Back to VPN's. We already know that Wireguard is one of the more common protocol
 
 #### TCP & UDP
 
-Networking knowledge was one of the listed prerequisites for these threads, but let's be honest... most people probably skipped the prereqs. I'll explain TCP and UDP real quick. I won't explain topics (or at least in depth) listed in the prereqs often. Feel free to skip if you're already informed on TCP and UDP. 
+Networking knowledge was one of the listed prerequisites for these threads, but let's be honest... most people probably skipped the prereqs. I am going to explain TCP and UDP as it is very important to know. If you are going to be working in IT, many jobs (except for maybe entry level jobs) will not hire you if you don't know this basic knowledge and it is crucial to know how your online sessions are established. What happens over the wire when you connect to google.com?
 
 UDP, or "User Datagram Protocol" is one of the two most commonly seen internet protocols, with the other being TCP (Transmission Control Protocol), that are used in conjunction with other protocols such as but not limited to HTTP or HTTPS. TCP is a slower, yet more reliable protocol and is considered a connection-based protocol. 
 
 Connection-based protocols will have a dedicated procedure for establishing a session, which is establishing a handshake between the server and client. This "handshake" will be a preliminary, pre-agreed on set of instructions that act as an agreement with information regarding the session and how it will take place. The client will send a packet to the server requesting to establish a connection. This is known in the TCP three-way-handshake as the "SYN" packet. "SYN" is short for synchronize. The server will then respond to the request made from the client with a "SYN/ACK" packet. "SYN/ACK" is short for synchronize acknowledge, which is the server acknowledging the synchronize packet from the client. Finally, the client will send another SYN packet to the server acknowledging the SYN/ACK packet from the server. The three way handshake will finally look like this: (Client) SYN > (Server) SYN/ACK > (Client) ACK. 
 
-The way these packets are defined are by the packet headers of the TCP protocol. One of the headers will be reserved for flags. These flags are SYN, SYN/ACK, RST, FIN, and a couple others. These flags are binary based, and the bit responsible for the appropriate flag will be set to "1" to represent "true" or that bit being "turned on". For example, a SYN packet will have the value of "1" for the SYN flag. When this packet arrives at the server, the server will strip down the packet and ultimately analyze the flags in the headers, realizing the bit responsible for the "SYN" flag is set to 1. This is how the server will know the client is trying to establish a connection, because that's what the SYN flag means. The rest of the process is pretty straightforward: the server then responds with the "SYN/ACK" bit set to "1" in the header's flags, then the client responds with another packet with the "SYN" bit set to "1" in the header's flags. The connection is finally established and the client/server are ready to start sending data. 
+!()[https://snabaynetworking.com/wp-content/uploads/2019/10/TCP-3-Way-Handshake-Process-1.jpg]
 
-TCP has other built-in features that are convenient depending on how the protocol is being used. The most notable feature of TCP is the error-checking capabilities built into the protocol. This will, for example, prevent a file you're downloading from having missing chunks if your internet is spotty or if you ultimately end up losing connection for a brief second during the download. This is not possible with TCP. TCP will hash the sum of the data you're trying to download before the download begins, then hash the sum of the data once again when it arrives at the destination (when the download is finished). If even 1 bit is changed, the hash value will be completely different, telling TCP that you don't have a bit-by-bit copy of the original file you're downloading. If this happens, TCP will reconstruct the data stream with the range or "offset" of bytes missing from the download to ensure that you got all of the data in its entirety. Not only does TCP hash the contents when they arrive at their destination for data integrity purposes, but TCP will also detect lost packets in real time, make a note of them, and then put them into a list of packets that need to be made up or "re-sent". Think of it as if the missing packets are being placed in order onto a conveyor belt for retransmission.
+The way these packets are defined are by the packet headers of the TCP protocol. One of the headers will be reserved for flags, as shown below:
+
+!()[https://github.com/snotknot/blog/assets/81799893/dc21ac49-c505-4ddf-8c65-7e0d227b8f3b]
+
+The various flags:
+
+!()[https://blog.pierky.com/wp-content/uploads/2010/03/tcp-flags1.png]
+
+Flag descriptions:
+
+!()[https://3.bp.blogspot.com/-w9p17Fl_MUo/WpQ6eb0EomI/AAAAAAAAU4M/wX9c6GNjjSMBSpIHh17KAomhpa46ltB8QCLcBGAs/s1600/Screenshot_1.png]
+
+These flags are binary based, and the bit responsible for the appropriate flag will be set to "1" to represent "true" or that bit being "turned on". For example, a SYN packet will have the value of "1" for the SYN flag. When this packet arrives at the server, the server will strip down the packet and ultimately analyze the flags in the headers, realizing the bit responsible for the "SYN" flag is set to 1. This is how the server will know the client is trying to establish a connection, because that's what the SYN flag means. The rest of the process is pretty straightforward: the server then responds with the "SYN/ACK" bit set to "1" in the header's flags, then the client responds with another packet with the "SYN" bit set to "1" in the header's flags. The connection is finally established and the client/server are ready to start sending data. 
+
+TCP has other built-in features that are convenient depending on how the protocol is being used. The most notable feature of TCP is the error-checking capabilities built into the protocol. This will, for example, prevent a file you're downloading from having missing chunks if your internet is spotty or if you ultimately end up losing connection for a brief second during the download. This is not possible with TCP. TCP will hash the sum of the data you're trying to download before the download begins, then hash the sum of the data once again when it arrives at the destination (when the download is finished). If even 1 bit is changed, the hash value will be completely different, telling TCP that you don't have a bit-by-bit copy of the original file you're downloading. If this happens, TCP will reconstruct the data stream with the range or "offset" of bytes missing from the download to ensure that you got all of the data in its entirety.
+
+Not only does TCP hash the contents when they arrive at their destination for data integrity purposes, but TCP will also detect lost packets in real time, make a note of them, and then put them into a list of packets that need to be made up or "re-sent". Think of it as if the missing packets are being placed in order onto a conveyor belt for retransmission.
 
 TCP is great for file downloading, emails, or browsing the internet, but imagine how hectic it would be if TCP was used for online gaming or video calls. If there was even the slightest bit of lag in your connection, then your online game/video call would become delayed and even more delayed as the packets that were lost during the lag have to be reconstructed and retransmitted to you. This is where connectionless protocols come into play.
 
@@ -203,6 +229,8 @@ Once the connection is established to the VPN, your traffic flow will then be ro
 Were you expecting more?
 
 ## VPN + Tor = bad
+
+!()[https://miro.medium.com/v2/resize:fit:602/0*YoSYl2O6I3fFVeuF.png]
 
 TLDR: Do not combine a VPN with Tor for anonymity, but rather convenience purposes. VPN's do not offer anonymity. Combining a VPN with Tor, something that does offer anonymity, is useless. 
 
@@ -266,6 +294,8 @@ If one of the nodes in your Tor circuit are compromised, which isn't uncommon, t
 Encrypt everything.
 
 ## Crypto
+
+!()[https://static.standard.co.uk/2022/12/05/12/SEI133630113%20%282%29.jpg?width=968&auto=webp&quality=100&crop=968%3A645%2Csmart]
 
 Cryptocurrency is something you need to be aware of to understand security, privacy, and anonymity. It'll come up at one point or another and you'll benefit from having knowledge on it. This will be more apparent if you're interested in anonymity and use the Dark web a lot. You'll see it plenty there. This will be by no means a "get your PHD in crypto" section. 
 
