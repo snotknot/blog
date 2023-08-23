@@ -108,7 +108,7 @@ Wikipedia:
 [https://en.wikipedia.org/wiki/Linux](https://en.wikipedia.org/wiki/Linux)
 
 Linux in 100 Seconds (Credit: Fireship):
-[](https://www.youtube.com/watch?v=rrB13utjYV4)(https://www.youtube.com/watch?v=rrB13utjYV4)
+[https://www.youtube.com/watch?v=rrB13utjYV4](https://www.youtube.com/watch?v=rrB13utjYV4)
 
 Below is a video showing you how to virtualize Ubuntu, the most popular Linux distribution, using VirtualBox.
 
