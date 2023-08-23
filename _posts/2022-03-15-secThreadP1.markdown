@@ -160,12 +160,7 @@ This is the mindset that I learned from many of my mentors and I encourage you t
 
 Are you trying to be a software developer? Don't start with writing code, hold the fuck on... How is that code compiled? How is that code ran on the CPU? How is that program loaded into memory and how does the CPU execute instructions off the memory stack? 
 
-Learning CPU instruction set architectures such as x86 as well as x86 assembly is not easy and will take time. I will guide you to some useful resources.
-
-Here is a blog post made by cocomelonc. I recommend checking out his other blogs as well. This blog post will introduce you to x86 assembly.
-
-"Malware analysis - part 1: My intro to x86 assembly", by **cocomelonc**:
-[https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html](https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html)
+Learning CPU instruction set architectures such as x86 as well as x86 assembly is not the easiest task and will take time.
 
 I fully understand that if you’re wanting increased anonymity, for example, then using tools such as Tails without the basic computing and networking knowledge can benefit you. What I’m trying to say is if you require a heightened level of anonymity where you absolutely cannot be identified under any circumstances (i.e., if you're a whisleblower), then it's an absolute must to learn what is going on under the hood to higher the chances of you being successful and not being unmasked.
 
