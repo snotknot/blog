@@ -5,7 +5,7 @@ published: true
 permalink: "/snotknot-security-thread-part-1.html"
 ---
 
-Last Updated: 8/15/23
+Last Updated: 8/23/23
 
 ## Introduction
 
