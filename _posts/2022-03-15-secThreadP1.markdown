@@ -42,6 +42,99 @@ Mirror (clearnet):
 - Virtual Machine knowledge and experience
 - Linux fundamentals
 
+## Don't meet the prerequisites?
+
+If you currently do not meet the bar when it comes to the listed prerequisites, this section will provide you with some material to help jump start your journey. 
+
+**Computer Science** 
+
+100+ Computer Science Concepts Explained:
+![](https://www.youtube.com/watch?v=-uleG_Vecis)
+
+(x86)
+
+I am going to key in here and write this section AS WELL as linking you outside sources to prevent you from making a popular mistake. 
+
+It is important to know that x86 is a CPU architecture. This is also known as an ISA, or "Instruction Set Architecture". x86 is a "CISC", or "Complex Instruction Set Computer" architecture. What this means is that it is a powerful CPU architecture used my more power demanding computers such as Desktops & laptops. x86 is the ISA used by most computers in the world including the one you're using right now, most likely.
+
+The 2nd most popular CPU architecture (ISA) is ARM. ARM is a "RISC", or "Reduced Instruction Set Computer" architecture. As the name implies, it is a reduced CPU architecture for smaller, less demanding computers such as smartphones or embedded devices. Newer Apple computers are starting to use ARM, with Apple's new M1 & M2 chips.
+
+ISA's are essentially a way for software to communicate with the CPU. How is the CPU going to execute code if the software isn't designed for the CPU architecture? This is why software that run on Windows won't run on your phone or vice versa, unless if they're ported to a different platform. 
+
+The mistake that people make while learning about ISA's are that they try to learn **EVERY** detail about x86, ARM, or both. This is a HUGE mistake. ISA's are very complex and you do not need to know all of the various details, unless if you're trying to create an operating system from scratch using that architecture or whatever. This is similar to trying to learn EVERYTHING about cryptography. You're not a cryptographer. If you try to learn everything about everything then you're going to burn yourself out. It is NOT possible. There is not one single human on the planet who knows "everything" about IT, or even any of its subsets: cryptography, cybersecurity, etc. You just have people who are really good at certain aspects of IT than others. Lower your expectations and don't be so harsh. Study smarter, not harder.
+
+Not that I cleared that up, I will leave you with this: What you need to focus on is the fact that x86 exists, ARM also exists, know the differences between the two (one is CISC, the other is RISC), and then learn how an x86 CPU executes code. That's all a CPU is, right? It just executes instructions.
+
+This will require you to learn how RAM works as well. Temporary data is stored in RAM, right? RAM is volatile. Nonvolatile (permanent) storage would be your HDD/SSD.
+
+Your RAM (Memory) will have what's called a "stack", also referred to as a memory stack. This stack will contain values, which are logical memory addresses that are made up of hexadecimal values. The memory addresses indicate where in the logical memory space the data is located. Let's say the integer "4" is stored in memory. Well, then 0x4 could be stored at the memory address: 0x0012FF90. 
+
+"0x0012FF90" is just an example. Don't think too deep into it.
+
+0x4 is "4" in hex, "0x" just indicates that the value is a hex value. Not all hex values have to begin with "0x", it's just a universal indicator of a hex value.
+
+The numbering system we use in the real world is decimal notation. This is base10, correct? The characters in base10 are: 1234567890. 
+
+Hex is base16, and the characters are 12345689ABCDEF. It's just 1-9, then A-F.
+
+CPUs execute machine code, and the type of machine code they execute is binary (base2). When humans read the code of a compiled binary, they read what's called "Op codes", AKA "Operation Codes" which will be written in Hex instead of Binary. OpCodes are another form of machine code, and is the variant that humans read. This is because it's a more convenient way for humans to read the compiled binary. We don't wanna sit here and fucking read binary all day, right?
+
+Next, you need to learn how the CPU interacts with these memory addresses, some in which may contain instructions to execute on the CPU, while some may contain values such as our example "0x4".
+
+This is where the x86 CPU pointers come into play. I will now redirect you to a source that will teach the rest of the basics of x86 pointers as well as a basic assembly rundown.
+
+Hopefully this helps.
+
+Malware analysis - part 1: My intro to x86 assembly (Credit: cocomelonc):
+[](https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html)
+
+Intro to x86 Assembly Language (Credit: Davy Wybiral):
+[](https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe)
+
+**VMs**
+
+Virtualization Explained (Credit: PowerCert Animated Videos):
+[](https://www.youtube.com/watch?v=UBVVq-xz5i0)
+
+Link to VirtualBox, one of the many publicly available hypervisors: 
+[](https://www.virtualbox.org/wiki/Downloads)
+
+How to create a Win10 VM using VirtualBox (Credit: TopNotch Programmer):
+[](https://www.youtube.com/watch?v=sBzL_zoYt6o)
+
+**Linux**
+
+Wikipedia:
+[](https://en.wikipedia.org/wiki/Linux)
+
+Linux in 100 Seconds (Credit: Fireship):
+[](https://www.youtube.com/watch?v=rrB13utjYV4)
+
+Below is a video showing you how to virtualize Ubuntu, the most popular Linux distribution, using VirtualBox.
+
+How to install Ubuntu 22.10 LTS in VirtualBox 2023 (Credit: TopNotch Programmer):
+[](https://www.youtube.com/watch?v=hYaCCpvjsEY)
+
+Below is a video that will introduce you to the terminal & basic commands to run.
+
+Introduction to Linux and Basic Linux Commands for Beginners (Credit: sakitech):
+[](https://www.youtube.com/watch?v=IVquJh3DXUA)
+
+**Networking**
+
+These videos posted by Network Direction are what helped me personally learn networking. I took in depth notes on Google Docs and studied them. I advise you doing the same.
+
+Network Fundamentals (Credit: Network Direction):
+![](https://www.youtube.com/watch?v=cNwEVYkx2Kk](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)
+
+Here is another similar playlist made by someone else. I have not watched these personally, however they appear to be high quality and the instructor seems to be good.
+
+Networking Fundamentals (Credit: Practical Networking)
+![](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+
+Real world example of TCP using Wireshark (Credit: Chris Greer)
+![](https://www.youtube.com/watch?v=HCHFX5O1IaQ)
+
 **tips for successfully reading this thread** 
 - Don’t skip ahead/skim through the thread, read in order
 - read the jolly rogers security thread before proceeding past this point
