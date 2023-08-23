@@ -49,7 +49,7 @@ If you currently do not meet the bar when it comes to the listed prerequisites, 
 **Computer Science** 
 
 100+ Computer Science Concepts Explained:
-![](https://www.youtube.com/watch?v=-uleG_Vecis)
+[https://www.youtube.com/watch?v=-uleG_Vecis](https://www.youtube.com/watch?v=-uleG_Vecis)
 
 (x86)
 
@@ -86,54 +86,54 @@ This is where the x86 CPU pointers come into play. I will now redirect you to a 
 Hopefully this helps.
 
 Malware analysis - part 1: My intro to x86 assembly (Credit: cocomelonc):
-[](https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html)
+[https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html](https://cocomelonc.github.io/tutorial/2021/10/03/malware-analysis-1.html)
 
 Intro to x86 Assembly Language (Credit: Davy Wybiral):
-[](https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe)
+[https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe](https://www.youtube.com/playlist?list=PLmxT2pVYo5LB5EzTPZGfFN0c2GDiSXgQe)
 
 **VMs**
 
 Virtualization Explained (Credit: PowerCert Animated Videos):
-[](https://www.youtube.com/watch?v=UBVVq-xz5i0)
+[https://www.youtube.com/watch?v=UBVVq-xz5i0](https://www.youtube.com/watch?v=UBVVq-xz5i0)
 
 Link to VirtualBox, one of the many publicly available hypervisors: 
-[](https://www.virtualbox.org/wiki/Downloads)
+[https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
 How to create a Win10 VM using VirtualBox (Credit: TopNotch Programmer):
-[](https://www.youtube.com/watch?v=sBzL_zoYt6o)
+[https://www.youtube.com/watch?v=sBzL_zoYt6o](https://www.youtube.com/watch?v=sBzL_zoYt6o)
 
 **Linux**
 
 Wikipedia:
-[](https://en.wikipedia.org/wiki/Linux)
+[https://en.wikipedia.org/wiki/Linux](https://en.wikipedia.org/wiki/Linux)
 
 Linux in 100 Seconds (Credit: Fireship):
-[](https://www.youtube.com/watch?v=rrB13utjYV4)
+[[]](https://www.youtube.com/watch?v=rrB13utjYV4)(https://www.youtube.com/watch?v=rrB13utjYV4)
 
 Below is a video showing you how to virtualize Ubuntu, the most popular Linux distribution, using VirtualBox.
 
 How to install Ubuntu 22.10 LTS in VirtualBox 2023 (Credit: TopNotch Programmer):
-[](https://www.youtube.com/watch?v=hYaCCpvjsEY)
+[https://www.youtube.com/watch?v=hYaCCpvjsEY](https://www.youtube.com/watch?v=hYaCCpvjsEY)
 
 Below is a video that will introduce you to the terminal & basic commands to run.
 
 Introduction to Linux and Basic Linux Commands for Beginners (Credit: sakitech):
-[](https://www.youtube.com/watch?v=IVquJh3DXUA)
+[https://www.youtube.com/watch?v=IVquJh3DXUA](https://www.youtube.com/watch?v=IVquJh3DXUA)
 
 **Networking**
 
 These videos posted by Network Direction are what helped me personally learn networking. I took in depth notes on Google Docs and studied them. I advise you doing the same.
 
 Network Fundamentals (Credit: Network Direction):
-![](https://www.youtube.com/watch?v=cNwEVYkx2Kk](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8)
+[https://www.youtube.com/watch?v=cNwEVYkx2Kk](https://www.youtube.com/playlist?list=PLDQaRcbiSnqF5U8ffMgZzS7fq1rHUI3Q8]
 
 Here is another similar playlist made by someone else. I have not watched these personally, however they appear to be high quality and the instructor seems to be good.
 
 Networking Fundamentals (Credit: Practical Networking)
-![](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
+![https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi](https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi)
 
 Real world example of TCP using Wireshark (Credit: Chris Greer)
-![](https://www.youtube.com/watch?v=HCHFX5O1IaQ)
+![https://www.youtube.com/watch?v=HCHFX5O1IaQ](https://www.youtube.com/watch?v=HCHFX5O1IaQ)
 
 **tips for successfully reading this thread** 
 - Don’t skip ahead/skim through the thread, read in order
