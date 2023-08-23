@@ -328,4 +328,10 @@ How do you obtain your first batch of crypto anonymously? There are many ways. J
 The not so legal ways may include creating crypto miner malware, with another example being malware that simply steals bitcoin address information. There's even malware out there disguised as Crypto wallet apps (for 
 example) that phishes you into giving them crypto or your wallet information. The list goes on and on; 
 
-extortion, you name it. Keep in mind that no illegal activities mentioned are encouraged, they are mentioned to inform you of their existencel.
+extortion, you name it. Keep in mind that no illegal activities mentioned are encouraged, they are mentioned to inform you of their existence.
+
+## Part III
+
+Most of the content that I am planning on adding to part III will likely be added as their own blog posts, instead of being shoved into an all-in-one "security thread". The reason for this change likely occuring is due to the time and planning it takes to plan, write, and publish these lengthy threads. It's much more enjoyable for me to post various blog posts about topics xyz than it is to condense them all into a "security thread".
+
+After all, every post on my blog is related to security, privacy, anonymity, OpSec, OSINT, etc.. It doesn't really matter one way or the other.
