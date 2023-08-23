@@ -188,6 +188,9 @@ Link (clearnet):
 
 [https://www.indybay.org/newsitems/2012/03/07/18708917.php](https://www.indybay.org/newsitems/2012/03/07/18708917.php) 
 
+
+**This was published prior to the passing of Kevin Mitnick. RIP Kevin Mitnick.**
+
 ## OPSEC Reality Check
 
 This section is suited mainly for those who have an anonymous life. Even if you don't have an anonymous life or if you don't care about people identifying you, I still recommend reading this section as it will shine light towards the reality of how scary the internet can be even when you make the smallest things public. None of this really matters in other situations unless if you're specifically trying to not be identified.
