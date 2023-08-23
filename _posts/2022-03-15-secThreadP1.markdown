@@ -51,7 +51,7 @@ If you currently do not meet the bar when it comes to the listed prerequisites, 
 100+ Computer Science Concepts Explained:
 [https://www.youtube.com/watch?v=-uleG_Vecis](https://www.youtube.com/watch?v=-uleG_Vecis)
 
-(x86)
+### **(x86)**
 
 I am going to key in here and write this section AS WELL as linking you outside sources to prevent you from making a popular mistake. 
 
