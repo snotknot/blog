@@ -1,0 +1,254 @@
+---
+layout: post
+title:  "Privacy subreddits are horrible"
+published: true
+permalink: "/privacy-subreddits"
+---
+
+I've been interested in privacy, security, OpSec, OSINT, and anonymity for years at this point. Most of what I know has been self taught while learning from the best at the craft. I, just like everyone else, like to check up on threads, forums, blog posts, etc. made by people in the community. 
+
+It's a good idea to learn not only from the top 1%, but also people who ended up facing the consequences because they weren't so knowledgeable. Let's say a well known hacker gets arrested by the police. How did that happen? What OpSec mistakes did he make to get caught? How could you avoid those mistakes if you were hypothetically in his situation? 
+
+One of the places that I like to check up on occasionally is Reddit. You sometimes will find informational posts. However, majority of the time it will be low effort posts about topics "xyz". 
+
+I of course can't forget the 14 year olds who ask "How do I get into hacking???"
+
+The amount of questions I find that can be easily Google'd drives me insane. People don't know how to efficiently ask questions, resulting in the lives of the people who go out of their way to help others and reply unnecessarily difficult. 
+
+What kind of a fucking question is "how do I get into hacking?". 
+
+The better approach is to ask Google about useful services that give you hands on experience. If you still have questions, THEN go on reddit (or whatever platform) and explain in detail about the research that you did, what you discovered, and what areas in particular that you want to learn more information about that can't easily be found online. Be more self dependant. 
+
+Why should somebody on Reddit feel inclined to answer your question when you made it abundantly clear that you did zero research whatsoever prior to asking your question? Nobody is going to spoon feed you and hold your hand. 
+
+![](https://authorjanedoe.files.wordpress.com/2012/07/how-to-videos-spoon-and-cup-feeding-a-baby.jpg)
+
+Put in effort and learn via trial and error. What answer are you expecting when you ask a broad question such as "How do I get into hacking"? Everyone is going to parrot the same exact answer ad nauseam in which YOU ALREADY KNOW the answer to, "start hacking", "read books", "watch videos".
+
+That's like asking someone how to stop procrastinating. You already know the answer; Get up and do something productive. Would you Google "How to lose weight"? Of course you wouldn't because you're not an idiot.
+
+People like these are the embodiment of these infosec/cybersec based subreddits. Low effort shitposts.
+
+Don't even get me started with the "Am I hacked???" posts.
+
+"My cousin and I were watching a pirated version of Twilight when we got a popup telling us our computer is infected!!!"
+
+With all due respect, most of these subreddits are not tech support.  
+
+Everyone is a beginner at some point and there is nothing wrong with asking questions. I am not hating on beginners. I am hating on lazy people who do not put in any effort to learn and result to posting their question on Reddit with the hopes that they will be spoon fed the answer.
+
+Wouldn't you **RATHER ASK GOOGLE?!?!?!?** Google will give you better answers, multiple answers, from multiple sources, INSTANTLY within pressing "enter". 
+
+When you post a thread on a site like reddit, you have to wait for someone to reply to your shitty question (that's if they reply in the first place), and hope that it's someone willing to spoon feed you, as apposed to people leaving troll replies to your question.
+
+I just don't understand. It truly mindboggles me, going on many of these subreddits make me feel as if I was hit with a stupid potion out of thin air.
+
+Reddit, just like every other site, has good and bad on it. Low effort stupid posts are way more common on Reddit from my experience. You will find some genuinely good posts sprinkled in between the "my macbook pro was hacked can someone help?!!!?!?!?!??!" posts.
+
+## Echo chambers
+
+Many of the moderators of these subreddits are the absolute worst. You'd think being a moderator of these subreddits covering these various topics would mean that you're somewhat knowledgeable about said topic, correct? You're wrong.
+
+Many of these subreddits are ran by staff who are misinformed, resulting in them green lighting posts that are factually incorrect and banning anyone who gives genuinely correct advice. This results in the subreddit ultimately turning into an echo chamber of shitty advice and genuine misinformation.  
+
+Many of the staff who run these subreddits will find any reason to ban you to flex their factually incorrect knowledge.
+
+Video evidence of these mods in the wild (watch with caution):
+[https://www.youtube.com/shorts/JzU_5YoSegU](https://www.youtube.com/shorts/JzU_5YoSegU)
+
+A few weeks ago I was scrolling through r/opsec. I stumbled across a lengthy post of someone asking the most confusing question in the history of questions ever posted on reddit. I was skimming through this post and found "VPN" and "TOR" in the same sentence. I replied to the thread and essentially said "I have no idea what the fuck you're asking but I saw you use Tor and VPN in the same sentence. Do not use a VPN with TOR". 
+
+My post was removed by a moderator since I did not follow the rules of the subreddit. I made an appeal and politely asked why I was banned. 
+
+
+Our conversation (Copy/pasted directly from DMs): 
+
+------BEGINNING OF DMS------
+
+Me: 
+May I please get more information on my ban? I'd greatly appreciate it. I gave advice while knowing his threat model because he specified it in his message. Take care.
+
+Mod:
+In your comment you flat out said you don’t know what question OP is asking yet you gave advice anyway. IOP started describing their risks but a lot is left unanswered. The first thing to do is get more detail.
+
+Me: 
+Correct. His question was confusing. I got banned for not knowing the threat model though, not the question. I know the threat model. He listed a few threat models and listed that he is trying to be anonymous. I gave the golden advice that anyone on any security thread ever will tell you; do not use a VPN. My point is that I was banned for X but I knew X and gave advice based on X but you're saying I did Y when I was banned for X, not Y. Not a big deal, only a three day ban. Just a little annoying is all.
+
+Mod:
+Uh, no. You gave bad advice because you don’t understand OPs risks and you don’t understand how mitigations should match the situation. “Do not use a VPN” is foolish as a generalization. Whether or not a VPN makes sense is situational. The whole point of r/opsec is understanding that context and how it affects which security measures are appropriate. And again, while OP did talk a bit about their risks, they left important questions unanswered. That’s why your comment was removed and you got a temp ban. If it makes you feel any better, I myself have been temp banned from this sub for making the same mistake.
+
+Me:
+You're right. Apologies. That's why I reached out and asked so thanks for clarifying.
+
+------END OF DMS------
+
+I'll sit here and take it on the chin and admit that he made good points and that I deserved my ban since I did theoritically break their shitty rules. I didn't "fully understand the question/threat model", cool. Fair is fair.
+
+First of all, him saying "IOP started describing their risks but a lot is left unanswered" is hilarious as he just described 99% of posts in that subreddit (and others too).
+
+I know I'm in the wrong but I wanted to use this as an example to help demonstrate why you shouldn't use reddit if you want to increase your knowledge on opsec, or the related fields such as anonymity, etc..
+
+## Do not use a VPN with Tor
+
+“"Do not use a VPN” is foolish as a generalization. Whether or not a VPN makes sense is situational."
+
+This is the one thing that he said that I decided to probe him more on. He didn't reply but I will describe here why I believe he is wrong. 
+
+Before I continue, I want to make one thing clear: 
+
+I understand I am some random guy who "claims" to know what he's talking about.
+
+"Why should I trust you??? Who are you? What's your background?"
+
+These are fair points.
+
+I like to remain relatively "under the radar" per se and I am not going to sit here and give you my resume on why you should take my word (same thing goes for my security threads that I make, BTW). You're a big boy who can make your own decisions and it's ultimately up to you.
+
+What I WILL DO, however, is provide you with authentic sources to back up my points. 
+
+Let's get started.
+
+### The explanation to "why?"
+
+If you're new to my blogs, I recommend that you first start with reading part II of my security thread where I covered in great detail the topic of VPNs. I cannot encourage this enough as it covers many points that are important for this blog that you're currently reading. I am not going to parrot the work that I already wrote, so please consider reading it prior to finishing this post.
+
+You will learn: 
+- The truth about VPNs
+- What VPNs are actually good for 
+- What VPNs are not good for
+- Data retention laws
+- Solutions to VPNs
+- Why to not combine a VPN with Tor
+- How VPN Cryptography works
+- How VPNs work behind the scenes
+- Exit node de-anonymization attacks
+
+ You can find part II [here](https://snotknot.github.io/blog/snotknot-security-thread-part-2.html).
+
+Now that you know all the nerdy details about VPNs and why they are bad for anonymity, let's get into some sources. That's what we like, right?
+
+I am not the only person who is going to tell you that it is not a good idea to combine a VPN with Tor for the purpose of anonymity. This will essentially be a continuation of the "VPN + Tor = bad" section from my security thread part II linked above.
+
+### Sources :nerd emoji:
+
+Remember how I said people do not put in effort to simply Google their question prior to posting it on sites such as Reddit? What's funny is that if you actually Google "Should I combine Tor with a VPN?", one of the VERY FIRST results is from the official Tor website advising against using a VPN with Tor.
+
+![](https://imgur.com/a/9kLHhTF)
+
+Isn't that comical? 
+
+"Can I use a VPN with Tor?":
+[https://support.torproject.org/faq/faq-5/](https://support.torproject.org/faq/faq-5/)
+
+"Well actually snotknot, I am getting results from sources such as Surfshark.com saying that it's a good idea!!!". OF COURSE YOU ARE LMAO, they're VPN provider #4M that want you to buy their product.
+
+![](https://imgur.com/kbBwVwb)
+
+K. Let's debunk this.
+
+> "Using Tor with a VPN is a good way to add another layer of security."
+
+No it is not. I mentioned in my security thead part II why the additional layer of encryption myth BS garbage is false.
+
+The longest TLDR in history: Additional layer of encryption FOR WHAT? Your .onion encrypted traffic? Redundancy ≠ security but in fact the OPPOSITE. A VPN is just one extra layer of complexity to your OpSec foundation that you have to worry about, it's hard to fuck up and accidentally connect to Tor on your own WiFi unless if you're an idiot. It is EXTREMELY easy to connect to a VPN without Tor or stolen WiFi, however. All of that risk for what? It has a very little return on investment. "But Law Enforcement has to subpoena the VPN!! It's one extra safeguard!!!".  
+
+Please do not waste your crypto on VPNs with the hopes that you will be the Jesus Christ of online anonymity. 
+
+> "This is because a VPN protects you in case the Tor network is compromised, and it hides Tor use"
+
+What they are referring to is your real IP address behind Tor is somehow exposed, whether it be the Tor network itself being compromised, a node(s) in your circuit being compromised, or maybe you forget to disable javascript and connect to a site that runs malicious javascript code on your browser's client  to leak your IP. Just to name a few.
+
+We will play into this hypothetical that you are using Surfshark VPN (of all VPNs), let's also assume that you payed for this VPN anonymously and only connect to it anonymously. This means you are using a Wi-Fi network that cannot identify you (stolen Wi-Fi, open Wi-Fi, etc.) to connect to the Tor network where you then connect to the VPN that you payed for anonymously with crypto (covered in security thread part II). 
+
+The final connection chain looks like this:
+
+Stolen/Free WiFi > Tor > VPN.
+
+Notice anything wrong about this? Remember how I mentioned in my security thread part II that having a VPN as your end node only offers convenience factors and not anonymity? This is because the VPN can just be subpoenaed, which makes it pointless from an anonymity point of view. We also know that you can't connect to .onion sites using Tor if the VPN is your end node.. WHICH MEANS your connection chain **has** to look like this:
+
+Stolen/Free WiFi > VPN > TOR.
+
+With this connect chain, Tor is the end node.
+
+Let's continue going into the details with this connection chain.
+
+In this case, if one of your Tor relays are compromised and your IP behind Tor is leaked, they will get the IP of the VPN server as it's the hop before Tor, and if they subpoena the VPN, they get the stolen/free Wi-Fi IP... but at that point, why not just skip the VPN as a whole??
+
+"But snotknot!! What if my VPN shuts down LE's request to subpoena my data!?"
+
+Then you won the lottery. Congrats. For everyone else, keep reading:
+
+Sure, it may be "one extra barrier" that LE have to go through, and it may "buy you time", but that ALSO requires having to pay for the VPN anonymously with crypto and then having to connect to that VPN over Tor (because remember from my security thread part II, you should ONLY connect to the VPN over Tor using stolden/free Wi-Fi (stolen/free wifi > Tor > VPN)). It's just more work that you have to do for no reason. If you don't use cypto, and if you pay for the VPN with your real identify like a moron, or connect to the VPN with your home WiFi/any network that can identify you like an even bigger moron, then it's pointless. Literally.
+
+"snotknot.. you're not getting me bro.. just hear me out.. the VPN doesn't **hurt** anything. It's an extra layer of encryption, an extra node that pattens your real IP, and doesn't hurt as long as you purchase and connect to it anonymously!"
+
+All I have to say to that is: Every single person who I'm aware of who knows what they're doing who are current/former cybercriminals (blackhat hackers, carders, DNM vendors, or anything that requires you to have the skill of anonymity and OpSec mastered).. do NOT use commercial VPNs. That doesn't mean people who know what they're doing don't use VPNs, it means they don't use VPNs and then think to themselves "omg im a ghost on the internet now bc of this vpn!!!". 
+
+Will you find the occasional person who does genuinely know what they're talking about and are reputable online who combines Tor with a VPN? Sure. You got me bro!!! That just means they are willing to take the risks to go over the top and use a VPN. They are confident that they will not accidentally connect to that VPN without Tor/Stolen WiFi, which was the risk with little return on investment as mentioned above.
+
+My point is that it is NOT required by ANY means. 
+
+There are terrorists, child predators, etc. who are actively free despite being under heavy monitoring/funding from numerous government agencies due to their online anonymity who do NOT use VPNs.
+
+(Note: I obviously do not endorse the activities of these individuals. The point is that if the police are after anyone, it's THESE GUYS. You are low hanging fruit compared to them and if they can get away with their heinous crimes, then you can get away with doxing some child who called you bad in your COD match if you use Tor without a VPN.) 
+
+The difference between someone who knows what they're talking about and a moron is that the guy who knows what he's talking about understands how VPNs will impact his OpSec based on his threat model, as well as the details behind how VPNs work. A moron simply defaults to the kneejerk reaction of "Everyone must use a VPN in every situation no matter what and don't let anyone tell you otherwise!!!!!!!" when they don't even know how cryptography, etc. works. They're just naive and aren't willing to learn. 
+
+Back to the quote.
+
+The quote mentioned it hides Tor use, this is true. However, you can just use a Bridge. They are more effective and are built into Tor for free. If you don't want your "ISP to know you're on Tor", using a VPN will just tell the VPN that you're using Tor instead of your ISP. You don't have to go through all of the hoops of obtaining crypto anonymously and then purchasing a VPN just so that the police don't break in your door because you bought coke from a DNM (Darknet Marketplace).. and in case you didn't get the sarcasm: Using a VPN will not decrease the chances of police breaking in your door because you bought coke from a DNM. 
+
+BACK TO THE SOURCES!! 
+
+Did you know that Tails also says VPN's don't offer strong anonymity?
+
+![](https://imgur.com/30oE6Sh)
+
+Source: (https://tails.net/support/faq/index.en.html) [https://tails.net/support/faq/index.en.html]
+
+Notice how they say "VPNs have clear benefits over Tor"? Over Tor means the VPN is the exit node (You > Tor > VPN).. which of course means you cannot use the dark web (.onion sites). 
+
+Does this sound familiar? Any flashbacks to my security thread part II? Hmmmm. Remember how I said people combine a VPN with Tor for convenience reasons on the clearnet and not anonymity reasons on the darknet? 
+
+TIME FOR MORE SOURCES!!!
+
+"When Cybercriminals with Good OpSec Attack":
+(https://www.youtube.com/watch?v=zXmZnU2GdVk) [https://www.youtube.com/watch?v=zXmZnU2GdVk]
+
+Now we're actually getting into the fun territory because this video covers a group of cybercriminals who had a really good OpSec foundation. The video covers their OpSec foundation, how they were caught, and all of the other interesting information. This is one of the many examples of utilizing publications on the internet to learn from others. This is a rare situation where the person(s) who were caught actually knew what they were doing. I recommend watching the whole video.
+
+I recommend taking notes about their operation in terms of OpSec. You don't have to go as far as flashing custom firmware on routers, but pay attention to their computer opsec. They are using nested encryption with Wi-Fi that does not tie to their identity. It's important to note that they were an entire cybercriminal group or "Gang" or whatever, so they had to be overkill. The more people involved = more likely for someone to make an OpSec mistake and take everyone down with it, which is why they had a dedicated "OpSec" guy who custom configured their "work" computers.
+
+I'll cover parts of their OpSec foundation that you should try to replicate if you want to be a ghost online or if you're doing anything sketchy/illegal: 
+
+- Full Disk encryption (LUKS & LVM on Linux))
+- Encrypting external media (which is where anything illegal should live)
+- stolen/free WiFi (**NEVER, EVER, under ANY circumstances use your home WiFi if you're doing anything illegal or want complete anonymity**)
+
+![](https://imgur.com/VsdtYeC)
+
+Oh... and you should be using a Torified distro such as Tails, with Tor bridges and javascript disabled via Tor engine (about:config), of course. Tails is not a "must have" obviously but is nice to have as it's configured by default to do many things that will aid in your privacy and anonymity.
+
+Some of you may be saying "WOAH WOAH WOAHHH SNOTKNOT HOLD THE FUCK ON!! THE VIDEO SAYS THEY USED VPNS!!!!!!"
+
+They did use VPNs, yes, good catch.. but they did not use commercial VPNs that you see advertised online. They used their own privately hosted VPNs on hardware they owned. Way different.
+
+If you didn't know or if you're new to networking/IT, the term "VPN" can be used on a wide scale. VPN can mean the big name commercial VPNs out there (Which is what I advise against) and then private hosted VPNs by individuals/companies. It's common for network admins for example to install a VPN on their companies intranet for employees or themselves to "remote" into in able to access the contents of the intranet.
+
+What's that? EVEN MORE SOURCES?!?!?!??
+
+"Don't Use a VPN with Tor":
+(https://www.youtube.com/watch?v=_dRdmmspH9E) [https://www.youtube.com/watch?v=_dRdmmspH9E]
+
+This video was made by a guy named Heath Adams. He is an ethical hacker who owns his own cybersecurity company named TCM Security.
+
+I wanted to include Heath Adams as a resource for a couple of reasons.
+Firstly, he is not an anonymous figure. This means that his training,
+background, history, etc. is all publicly available information. This makes
+him more of a creditable source, as apposed to linking you a story of some random guy on the darknet who goes by his anonymous handle and you just have to kind of "trust" that he knows what he's talking about.
+
+Heath Adams has every industry professional certification you can think of: 
+
+-  OSCP, OSWP, eCPTX, eWPT, C|EH, Pentest+, A+, and more.
+
+Although his bread and butter is hacking and not so much anonymity/privacy, he is still a reputable resource. Having the knowledge to break into systems also teaches you how systems are created/maintained and how they work from a networking perspective and so on. It all goes hand in hand at the end of the day.
