@@ -238,7 +238,7 @@ If you didn't know or if you're new to networking/IT, the term "VPN" can be used
 What's that? EVEN MORE SOURCES?!?!?!??
 
 "Don't Use a VPN with Tor":
-(https://www.youtube.com/watch?v=_dRdmmspH9E) [https://www.youtube.com/watch?v=_dRdmmspH9E]
+(https://www.youtube.com/watch?v=_dRdmmspH9E)[https://www.youtube.com/watch?v=_dRdmmspH9E]
 
 This video was made by a guy named Heath Adams. He is an ethical hacker who owns his own cybersecurity company named TCM Security.
 
@@ -249,6 +249,6 @@ him more of a creditable source, as apposed to linking you a story of some rando
 
 Heath Adams has every industry professional certification you can think of: 
 
--  OSCP, OSWP, eCPTX, eWPT, C|EH, Pentest+, A+, and more.
+-  OSCP, OSWP, eCPTX, eWPT, CEH, Pentest+, A+, and more.
 
 Although his bread and butter is hacking and not so much anonymity/privacy, he is still a reputable resource. Having the knowledge to break into systems also teaches you how systems are created/maintained and how they work from a networking perspective and so on. It all goes hand in hand at the end of the day.
