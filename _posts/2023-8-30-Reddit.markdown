@@ -133,7 +133,7 @@ I am not the only person who is going to tell you that it is not a good idea to 
 
 Remember how I said people do not put in effort to simply Google their question prior to posting it on sites such as Reddit? What's funny is that if you actually Google "Should I combine Tor with a VPN?", one of the VERY FIRST results is from the official Tor website advising against using a VPN with Tor.
 
-![](https://imgur.com/a/9kLHhTF)
+![](https://i.imgur.com/yWNSP1q.png)
 
 Isn't that comical? 
 
@@ -142,7 +142,7 @@ Isn't that comical?
 
 "Well actually snotknot, I am getting results from sources such as Surfshark.com saying that it's a good idea!!!". OF COURSE YOU ARE LMAO, they're VPN provider #4M that want you to buy their product.
 
-![](https://imgur.com/kbBwVwb)
+![](https://i.imgur.com/kbBwVwb.png)
 
 K. Let's debunk this.
 
@@ -202,7 +202,7 @@ BACK TO THE SOURCES!!
 
 Did you know that Tails also says VPN's don't offer strong anonymity?
 
-![](https://imgur.com/30oE6Sh)
+![](https://i.imgur.com/30oE6Sh.png)
 
 Source: 
 [https://tails.net/support/faq/index.en.html](https://tails.net/support/faq/index.en.html)
@@ -226,7 +226,7 @@ I'll cover parts of their OpSec foundation that you should try to replicate if y
 - Encrypting external media (which is where anything illegal should live)
 - stolen/free WiFi (**NEVER, EVER, under ANY circumstances use your home WiFi if you're doing anything illegal or want complete anonymity**)
 
-![](https://imgur.com/VsdtYeC)
+![](https://i.imgur.com/VsdtYeC.png)
 
 Oh... and you should be using a Torified distro such as Tails, with Tor bridges and javascript disabled via Tor engine (about:config), of course. Tails is not a "must have" obviously but is nice to have as it's configured by default to do many things that will aid in your privacy and anonymity.
 
