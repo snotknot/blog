@@ -204,7 +204,8 @@ Did you know that Tails also says VPN's don't offer strong anonymity?
 
 ![](https://imgur.com/30oE6Sh)
 
-Source: [https://tails.net/support/faq/index.en.html](https://tails.net/support/faq/index.en.html)
+Source: 
+[https://tails.net/support/faq/index.en.html](https://tails.net/support/faq/index.en.html)
 
 Notice how they say "VPNs have clear benefits over Tor"? Over Tor means the VPN is the exit node (You > Tor > VPN).. which of course means you cannot use the dark web (.onion sites). 
 
@@ -213,7 +214,6 @@ Does this sound familiar? Any flashbacks to my security thread part II? Hmmmm. R
 TIME FOR MORE SOURCES!!!
 
 "When Cybercriminals with Good OpSec Attack":
-
 [https://www.youtube.com/watch?v=zXmZnU2GdVk](https://www.youtube.com/watch?v=zXmZnU2GdVk)
 
 Now we're actually getting into the fun territory because this video covers a group of cybercriminals who had a really good OpSec foundation. The video covers their OpSec foundation, how they were caught, and all of the other interesting information. This is one of the many examples of utilizing publications on the internet to learn from others. This is a rare situation where the person(s) who were caught actually knew what they were doing. I recommend watching the whole video.
@@ -239,7 +239,6 @@ If you didn't know or if you're new to networking/IT, the term "VPN" can be used
 What's that? EVEN MORE SOURCES?!?!?!??
 
 "Don't Use a VPN with Tor":
-
 [https://www.youtube.com/watch?v=_dRdmmspH9E](https://www.youtube.com/watch?v=_dRdmmspH9E)
 
 This video was made by a guy named Heath Adams. He is an ethical hacker who owns his own cybersecurity company named TCM Security.
