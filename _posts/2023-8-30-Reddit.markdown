@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Privacy subreddits are horrible"
+title:  "Tor + VPN = Bad (Continued)"
 published: true
 permalink: "/privacy-subreddits"
 ---
