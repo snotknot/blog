@@ -224,8 +224,8 @@ I recommend taking notes about their operation in terms of OpSec. You don't have
 
 I'll cover parts of their OpSec foundation that you should try to replicate if you want to be a ghost online or if you're doing anything sketchy/illegal: 
 
-- Full Disk encryption (LUKS & LVM on Linux))
-- Encrypting external media (which is where anything illegal should live)
+- Full Disk encryption (LUKS & LVM on Linux)
+- Encrypting external media (which is where any evidence of your activities should live)
 - stolen/free WiFi (**NEVER, EVER, under ANY circumstances use your home WiFi if you're doing anything illegal or want complete anonymity**)
 
 ![](https://i.imgur.com/VsdtYeC.png)
