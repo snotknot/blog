@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "LastPass Hack: Why you shouldn't use cloud-based password managers"
+title:  "LastPass Hack: Why to consider privately hosted password managers"
 published: true
 permalink: "/lastpass-databreach"
 ---
