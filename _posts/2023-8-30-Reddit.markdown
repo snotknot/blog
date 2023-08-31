@@ -5,6 +5,8 @@ published: true
 permalink: "/privacy-subreddits"
 ---
 
+![](https://martech.org/wp-content/uploads/2014/07/reddit-combo-1920.png)
+
 ## Intro: Privacy Subreddits are Horrible
 
 I've been interested in privacy, security, OpSec, OSINT, and anonymity for years at this point. Most of what I know has been self taught while learning from the best at the craft. I, just like everyone else, like to check up on threads, forums, blog posts, etc. made by people in the community. 
