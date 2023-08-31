@@ -228,7 +228,7 @@ I'll cover parts of their OpSec foundation that you should try to replicate if y
 
 - Full Disk encryption (LUKS & LVM on Linux)
 - Encrypting external media (which is where any evidence of your activities should live)
-- stolen/free WiFi (**NEVER, EVER, under ANY circumstances use your home WiFi if you're doing anything illegal or want complete anonymity**)
+- stolen/free WiFi (**NEVER, EVER, under ANY circumstances use your home WiFi (or a network that can identify you) if you're doing anything illegal or want complete anonymity**)
 
 ![](https://i.imgur.com/VsdtYeC.png)
 
