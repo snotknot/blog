@@ -5,6 +5,8 @@ published: true
 permalink: "/privacy-subreddits"
 ---
 
+## Intro: Privacy Subreddits are Horrible
+
 I've been interested in privacy, security, OpSec, OSINT, and anonymity for years at this point. Most of what I know has been self taught while learning from the best at the craft. I, just like everyone else, like to check up on threads, forums, blog posts, etc. made by people in the community. 
 
 It's a good idea to learn not only from the top 1%, but also people who ended up facing the consequences because they weren't so knowledgeable. Let's say a well known hacker gets arrested by the police. How did that happen? What OpSec mistakes did he make to get caught? How could you avoid those mistakes if you were hypothetically in his situation? 
