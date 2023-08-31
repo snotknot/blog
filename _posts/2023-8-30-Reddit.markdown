@@ -180,7 +180,7 @@ Then you won the lottery. Congrats. For everyone else, keep reading:
 
 Sure, it may be "one extra barrier" that LE have to go through, and it may "buy you time", but that ALSO requires having to pay for the VPN anonymously with crypto and then having to connect to that VPN over Tor (because remember from my security thread part II, you should ONLY connect to the VPN over Tor using stolen/free Wi-Fi (stolen/free wifi > Tor > VPN)). It's just more work that you have to do for little return on investment.
 
-If you don't use cypto, and if you pay for the VPN with your real identify like a moron, or connect to the VPN with your home WiFi/any network that can identify you like an even bigger moron (your work Wi-Fi, etc.), then it's pointless. Literally.
+If you don't use cypto, and if you pay for the VPN with your real identify like a moron, or connect to the VPN with your home WiFi/any network that can identify you like an even bigger moron (your work Wi-Fi, friends Wi-Fi, parents Wi-Fi, etc.), then it's pointless. Literally.
 
 "snotknot.. you're not getting me bro.. just hear me out.. the VPN doesn't **hurt** anything. It's an extra layer of encryption, an extra node that pattens your real IP, and doesn't hurt as long as you purchase and connect to it anonymously!"
 
