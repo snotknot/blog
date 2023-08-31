@@ -55,7 +55,7 @@ If you currently do not meet the bar when it comes to the listed prerequisites, 
 
 I am going to key in here and write this section AS WELL as linking you outside sources to prevent you from making a popular mistake. 
 
-It is important to know that x86 is a CPU architecture. This is also known as an ISA, or "Instruction Set Architecture". x86 is a "CISC", or "Complex Instruction Set Computer" architecture. What this means is that it is a powerful CPU architecture used by more power demanding computers such as Desktops & laptops. x86 is the ISA used by most computers in the world including the one you're using right now, most likely.
+It is important to know that x86 is a CPU architecture. This is also known as an [ISA](https://www.codecademy.com/learn/cspath-computer-architecture/modules/instruction-set-architecture/cheatsheet), or "Instruction Set Architecture". x86 is a "CISC", or "Complex Instruction Set Computer" architecture. What this means is that it is a powerful CPU architecture used by more power demanding computers such as Desktops & laptops. x86 is the ISA used by most computers in the world including the one you're using right now, most likely.
 
 The 2nd most popular CPU architecture (ISA) is ARM. ARM is a "RISC", or "Reduced Instruction Set Computer" architecture. As the name implies, it is a reduced CPU architecture for smaller, less demanding computers such as smartphones or embedded devices. Newer Apple computers are starting to use ARM, with Apple's new M1 & M2 chips.
 
