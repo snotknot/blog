@@ -190,7 +190,7 @@ Will you find the occasional person who does genuinely know what they're talking
 
 My point is that it is NOT required by ANY means. 
 
-There are terrorists, child predators, etc. who are actively free despite being under heavy monitoring/funding from numerous government agencies due to their online anonymity who do NOT use VPNs. The way they do it is by properly utilizing encryption (Tor, PGP, etc.) as well as understanding forensics and how to counter it (Tails, Whonix, etc.) which allows them to be free. You can use a VPN all you want, but if you fail to utilize encryption and prevent forensic investigators from obtaining evidence tied to your activities, then it's game over. That's the only thing that matters at the end of the day so use VPN all you want champ.
+There are terrorists, child predators, etc. who are actively free despite being under heavy monitoring/funding from numerous government agencies due to their online anonymity who do NOT use VPNs. The way they do it is by properly utilizing encryption (Tor, PGP, etc.) as well as understanding forensics and how to counter it (Tails, Whonix, etc.) which allows them to be free. You can use a VPN all you want, but if you fail to utilize encryption and prevent forensic investigators from obtaining evidence tied to your activities, then it's game over. That's the only thing that matters at the end of the day so use VPNs all you want champ.
 
 (Note: I obviously do not endorse the activities of these individuals. The point is that if the police are after anyone, it's THESE GUYS. You are low hanging fruit compared to them and if they can get away with their heinous crimes, then you can get away with doxing some child who called you bad in your COD match if you don't use a VPN.) 
 
