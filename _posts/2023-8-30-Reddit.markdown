@@ -92,7 +92,7 @@ First of all, him saying "IOP started describing their risks but a lot is left u
 
 I know I'm in the wrong but I wanted to use this as an example to help demonstrate why you shouldn't use reddit if you want to increase your knowledge on opsec, or the related fields such as anonymity, etc..
 
-## Do not use a VPN with Tor
+## Tor + VPN = Bad (Continued)
 
 “"Do not use a VPN” is foolish as a generalization. Whether or not a VPN makes sense is situational."
 
@@ -106,7 +106,7 @@ You are correct.
 
 There are ALSO people who advise you to stick metal objects in electrical sockets. However, there are people who use reasoning (science, etc.) to prove why that is not such a great idea!
 
-What I will be doing is using logic (knowledge of cryptography, information systems, weighing the pros and cons that come from using a VPN with Tor, etc.) to show why it's probably not the best idea. I will be using sources to back up my points as well as basic logic. 
+What I will be doing is using logic (knowledge of cryptography, information systems, weighing the pros and cons that come from using a VPN with Tor, etc.) to show why it's probably not the best idea. 
 
 Let's get started.
 
@@ -129,7 +129,7 @@ You will learn:
 
 Now that you know all the nerdy details about VPNs and why they are bad for anonymity, let's get into some sources. That's what we like, right?
 
-I am not the only person who is going to tell you that it is not a good idea to combine a VPN with Tor for the purpose of anonymity. This will essentially be a continuation of the "VPN + Tor = bad" section from my security thread part II linked above.
+I am not the only person who is going to tell you that it is not a good idea to combine a VPN with Tor for the purpose of anonymity. This will be a continuation of the "VPN + Tor = bad" section from my security thread part II linked above.
 
 ### Sources :nerd emoji:
 
