@@ -100,15 +100,13 @@ This is the one thing that he said that I decided to probe him more on. He didn'
 
 Before I continue, I want to make one thing clear: 
 
-I understand I am some random guy who "claims" to know what he's talking about.
+I understand that you can easily use the counterargument of "Well snotknot, people say that you SHOULD use a VPN with Tor, so why should I take your word over theirs?"
 
-"Why should I trust you??? Who are you? What's your background?"
+You are correct.
 
-These are fair points.
+There are ALSO people who advise you to stick metal objects in electrical sockets. However, there are people who use reasoning (science, etc.) to prove why that is not such a great idea!
 
-I like to remain relatively "under the radar" per se and I am not going to sit here and give you my resume on why you should take my word (same thing goes for my security threads that I make, BTW). You're a big boy who can make your own decisions and it's ultimately up to you.
-
-What I WILL DO, however, is provide you with authentic sources to back up my points. 
+What I will be doing is using logic (knowledge of cryptography, information systems, weighing the pros and cons that come from using a VPN with Tor, etc.) to show why it's probably not the best idea. I will be using sources to back up my points as well as basic logic. 
 
 Let's get started.
 
