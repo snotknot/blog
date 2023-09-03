@@ -198,7 +198,7 @@ Connection-based protocols will have a dedicated procedure for establishing a se
 
 The way these packets are defined are by the packet headers of the TCP protocol. One of the headers will be reserved for flags, as shown below:
 
-![](https://github-production-user-asset-6210df.s3.amazonaws.com/81799893/262527508-dc21ac49-c505-4ddf-8c65-7e0d227b8f3b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230823%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230823T025057Z&X-Amz-Expires=300&X-Amz-Signature=81a35935b67e8113ff6e1944cc64616093ea1e88a97ec01bc204e4cc1c81f38c&X-Amz-SignedHeaders=host&actor_id=81799893&key_id=0&repo_id=470406185)
+![](https://cdn.networklessons.com/wp-content/uploads/2015/07/tcp-header.png)
 
 The various flags:
 
