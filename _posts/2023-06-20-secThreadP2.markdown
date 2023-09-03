@@ -263,6 +263,7 @@ That's a legitimate question. Are you? You're connected to that VPN anonymously,
 It's just one extra hop that your traffic has to go through. What would be the difference if you just had Tor as your exit node? 
 
 READ: **"Tor + VPN = Bad (Continued)"**:
+
 [https://snotknot.github.io/blog/Tor+VPN](https://snotknot.github.io/blog/Tor+VPN)
 
 I have a newer blog where I go more into detail on why it is a bad idea to combine a VPN with Tor. 
