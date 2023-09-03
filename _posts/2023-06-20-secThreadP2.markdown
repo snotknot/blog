@@ -286,7 +286,7 @@ This means that even if you do have an exit node in which is ran by the governme
 
 If a VPN were to be your exit node, then you wouldn't be able to connect to the .onion site as it'll see a VPN server trying to connect to it and would not be able to establish a valid socket. Tor has to be your exit node to connect to .onion sites. That would obviously require a valid Tor Client + Tor Server connection socket to establish that session. That would be like trying to plug a USB male ending into an HDMI female port.
 
-If a VPN were to be somewhere in your connection chain, with Tor being your exit node, then you still have the same issue of that exit node being potentially compromised/owned by the government/police/etc., and the VPN would be pointless. Literally. It's not doing anything. It is indeed an extra layer of protection as LE will have to subpoena your VPN to get the IP adadress of the hop before your VPN, but I discussed why most people don't do that in my newer blog [here](https://snotknot.github.io/blog/Tor+VPN).
+If a VPN were to be somewhere in your connection chain, with Tor being your exit node, then you still have the same issue of that exit node being potentially compromised/owned by the government/police/etc., and the VPN would be pointless. Literally. It's not doing anything. It is indeed an extra layer of protection as LE will have to subpoena your VPN to get the IP address of the hop before your VPN, but I discussed why most people don't do that in my newer blog [here](https://snotknot.github.io/blog/Tor+VPN).
 
 You > VPN > Tor = Potential jail time or being unmasked.
 You > Tor > VPN = Freedom. 
