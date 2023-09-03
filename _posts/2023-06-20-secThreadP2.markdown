@@ -262,6 +262,11 @@ That's a legitimate question. Are you? You're connected to that VPN anonymously,
 
 It's just one extra hop that your traffic has to go through. What would be the difference if you just had Tor as your exit node? 
 
+READ: **"Tor + VPN = Bad (Continued)"**
+[https://snotknot.github.io/blog/privacy-subreddits](https://snotknot.github.io/blog/privacy-subreddits)
+
+I have a newer blog where I go more into detail on why it is a bad idea to combine a VPN with Tor. 
+
 #### Exit node de-anonymization attacks
 
 Let's debunk a common argument many people, including you, may have as to why you should combine a VPN with Tor.
@@ -276,11 +281,11 @@ The idea behind the de-anonymization attack argument is that if you happen to ac
 
 However... remember how I said that the server becomes your exit node when you're connected to a server that utilizes end-to-end encryption? Well, .onion sites offer end-to-end encryption.
 
-This means that even if you do have an exit node in which is ran by the government/police, they will not be able to access the contents of your session as it will be encrypted, and the .onion site is the one performing all the decrypting power.
+This means that even if you do have an exit node in which is ran by the government/police, they will not be able to access the contents of your session as it will be encrypted, and the .onion site is the one performing all the decrypting power. However, any unencrypted traffic will be in the hands of whoever is monitoring your exit node. 
 
 If a VPN were to be your exit node, then you wouldn't be able to connect to the .onion site as it'll see a VPN server trying to connect to it and would not be able to establish a valid socket. Tor has to be your exit node to connect to .onion sites. That would obviously require a valid Tor Client + Tor Server connection socket to establish that session. That would be like trying to plug a USB male ending into an HDMI female port.
 
-If a VPN were to be somewhere in your connection chain, with Tor being your exit node, then you still have the same issue of that exit node being potentially compromised/owned by the government/police/etc., and the VPN would be pointless. Literally. It's not doing anything. It's just existing without offering any advantages, just one extra unnecessary node that your data has to route through.
+If a VPN were to be somewhere in your connection chain, with Tor being your exit node, then you still have the same issue of that exit node being potentially compromised/owned by the government/police/etc., and the VPN would be pointless. Literally. It's not doing anything. It is indeed an extra layer of protection as LE will have to subpoena your VPN to get the IP adadress of the hop before your VPN, but I discussed why most people don't do that in my newer blog [here](https://snotknot.github.io/blog/Tor+VPN).
 
 You > VPN > Tor = Potential jail time or being unmasked.
 You > Tor > VPN = Freedom. 
