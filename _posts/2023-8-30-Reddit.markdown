@@ -2,7 +2,7 @@
 layout: post
 title:  "Tor + VPN = Bad (Continued)"
 published: true
-permalink: "/privacy-subreddits"
+permalink: "/Tor+VPN"
 ---
 
 ![](https://martech.org/wp-content/uploads/2014/07/reddit-combo-1920.png)
