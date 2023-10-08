@@ -213,7 +213,7 @@ Did you know that Tails also says VPN's don't offer strong anonymity?
 Source: 
 [https://tails.net/support/faq/index.en.html](https://tails.net/support/faq/index.en.html)
 
-Notice how they say "VPNs have clear benefits over Tor"? Over Tor means the VPN is the exit node (You > Tor > VPN).. which of course means you cannot use the dark web (.onion sites). 
+Notice how they say "VPNs have clear benefits over Tor"? Over Tor means the VPN is the exit node (You > Tor > VPN).. which of course means you cannot use the dark web. 
 
 Does this sound familiar? Any flashbacks to my security thread part II? Hmmmm. Remember how I said people combine a VPN with Tor for convenience reasons on the clearnet and not anonymity reasons on the darknet? 
 
