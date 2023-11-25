@@ -5,7 +5,7 @@ published: true
 permalink: "/web-browser-debate"
 ---
 
-2 years ago I started using ![Chromium](https://www.chromium.org/chromium-projects/) for simple reasons.
+2 years ago I started using [Chromium](https://www.chromium.org/chromium-projects/) for simple reasons.
 
 1. I wanted something fast.
 2. I wanted something that just works.
@@ -23,7 +23,7 @@ With newer browsers gaining popularity (mainly Brave & Opera), it is giving peop
 
 Did you know that most browsers are just Chromium forks?
 
-![](https://imgur.com/a/Xw6KurL)
+!()[https://imgur.com/a/Xw6KurL]
 
 Every popular browser currently other than Firefox is Chromium based. 
 
