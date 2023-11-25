@@ -24,7 +24,7 @@ With newer browsers gaining popularity (mainly Brave & Opera), it is giving peop
 
 Did you know that most browsers are just Chromium forks?
 
-![](https://imgur.com/a/Xw6KurL)
+![](https://media.licdn.com/dms/image/D5622AQE5dYPNUGnuBA/feedshare-shrink_800/0/1688001924982?e=1702512000&v=beta&t=c0XtjW-Cfhd4br7U03Xy7btvhchw4nJm_XeRhomKFDo)
 
 Every popular browser currently other than Firefox & Safari are Chromium based. 
 
