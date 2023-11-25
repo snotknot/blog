@@ -17,6 +17,7 @@ That's pointless.
 
 ---
 
+
 The debate since the beginning of time has been "Google Chrome of Firefox???"
 
 With newer browsers gaining popularity (mainly Brave & Opera), it is giving people more of a reason to bandwagon their favorite browser. 
@@ -42,6 +43,7 @@ From a technical perspective this theory is incorrect as it is still a Chromium 
 A modified Firefox instance with the proper settings and extensions is the route if you want privacy and security. If you don't, then any other browser will work.
 
 ---
+
 
 Think of every browser as a bloated version of Chromium, because that's literally what they are; a Chromium fork with extra features.
 
@@ -93,7 +95,7 @@ Key takeaways:
 
 If you like feature rich web browsers that are still relatively fast compared to Chrome/Chromium, Opera is great. Just know that Opera is more of a niche browser and not many people use it compared to Chrome, Chromium, & Firefox. Most of the hype, support, functionality, will be with Google Chrome and Firefox.
 
-# Bandwagoning/gatekeeping web browsers
+## Bandwagoning/gatekeeping web browsers
 
 I am going to end with this. 
 
