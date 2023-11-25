@@ -24,9 +24,9 @@ With newer browsers gaining popularity (mainly Brave & Opera), it is giving peop
 
 Did you know that most browsers are just Chromium forks?
 
-![](https://imgur.com/a/Xw6KurL])
+![](https://imgur.com/a/Xw6KurL)
 
-Every popular browser currently other than Firefox is Chromium based. 
+Every popular browser currently other than Firefox & Safari are Chromium based. 
 
 This means the developers built on top of Chromium to make their own forked browser. All of the Brave users who think they have top tier privacy and security in reality do not since they are using a browser that isn't de-googled. You have better privacy and security, yeah, but you're still using a Chromium fork and giving Google your data. One of the reasons Brave is labeled a "privacy friendly" or a "security friendly" browser is due to the fact that it is open-sourced, just like the browser it's based on (Chromium). 
 
