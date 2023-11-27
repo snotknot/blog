@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why you should stop using VPNs"
+title:  "Why you should stop using Commercial VPNs"
 published: true
 permalink: "/stop-using-vpns"
 ---
