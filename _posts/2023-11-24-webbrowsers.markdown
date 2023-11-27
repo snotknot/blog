@@ -5,12 +5,12 @@ published: true
 permalink: "/web-browser-debate"
 ---
 
-2 years ago I started using [Chromium](https://www.chromium.org/chromium-projects/) for simple reasons.
+I've been using [Firefox](https://www.mozilla.org/en-US/firefox/new/) since day one of owning a computer for simple reasons.
 
 1. I wanted something fast.
 2. I wanted something that just works.
-3. I didn't care about privacy/security.
-
+3. I hate Chrome
+   
 The reality behind picking a web browser is you have to go all out. You can't use Firefox for privacy and then use Google as your search engine. 
 
 That's pointless.
