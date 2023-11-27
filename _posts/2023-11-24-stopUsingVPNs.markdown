@@ -55,6 +55,7 @@ If you want to have a noticeable impact on your privacy and security, you need t
 Wanna learn more about VPNs?
 
 [snotknot's security thread (part 2)](https://snotknot.github.io/blog/snotknot-security-thread-part-2.html)
+
 [Tor + VPN = Bad (Continued)](https://snotknot.github.io/blog/Tor+VPN)
 
 
