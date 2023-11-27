@@ -84,7 +84,7 @@ Many big name VPN providers were caught red handed keeping user logs despite cla
 
 Despite all of the evidence, you also have to use a little bit of common sense. Why would VPN providers NOT log your data? Data is so valuable in todays world that they would be losing out on a lot of potential profit if they chose to opt out of data collection entirely as most claim to do. What if you're using a VPN who offers cheaper subscriptions than their competitors? How do you think they're making up for that profit? They are probably selling your data. Data collection is even more likely with cheaper VPNs. 
 
-So many people blindly establish trust foundations with these VPN providers without any valid reasoning. They're a business, they want to make money. Your data makes that very easy. Are you correct when you say VPN provider "X" doesn't keep logs? You may be, but "may" isn't a good enough answer if you're wanting genuine privacy. 
+So many people blindly establish trust foundations with these VPN providers without any valid reasoning. They're a business, they want to make money. Your data makes that very easy. Are you correct when you say VPN provider "X" doesn't keep logs? You may be, but "may" isn't a good enough answer if you're wanting genuine privacy. If you have to question your privacy, then you have none.
 
 ### Data Retention Laws
 
