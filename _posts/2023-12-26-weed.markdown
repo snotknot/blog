@@ -74,10 +74,13 @@ I did some simple math for you to demonstrate why you always buy in bulk.
 Hypothetically speaking, let's say you reup on an 8th (3.5g) every month. For the sake of this hypothetical, you're reupping on Gorilla Glue which is normally $40 for an 8th, let's pretend that it's $10 shipping.
 
 Jan 1 - You purchase 3.5g for $40, $10 shipping
+
 Feb 1 - You purchase 3.5g for $40, $10 shipping
+
 March 1 - You purchase 3.5g for $40, $10 shipping
 
 Total for an oz after 8 months: $400 ($40 per 3.5g x 8, $10 shipping x 8)
+
 Total if you buy an ounce in bulk: $275 ($10 shipping)
 
 An oz in bulk is $265 on the site that I am looking at.
