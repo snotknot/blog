@@ -42,6 +42,8 @@ Mirror (clearnet):
 - Virtual Machine knowledge and experience
 - Linux fundamentals
 
+  Don't overthink it. They're not that advanced/technicall, notice the keyword "fundamentals". You don't have to get your PHD in computer science, networking, or linux.
+
 ## Don't meet the prerequisites?
 
 If you currently do not meet the bar when it comes to the listed prerequisites, this section will provide you with some material to help jump start your journey. 
@@ -142,7 +144,7 @@ Real world example of TCP using Wireshark (Credit: Chris Greer)
   
 If you're wanting to remain anonymous, maximize your security, privacy and so on... then above is what I personally would recommend learning. I already know this is going to generate a fuck ton of controversy but I am a firm believer that you should learn the basics of computers and networking before you rely on them to keep you anonymous. 
 
-Many people believe there is a “go-to cheat code” that beginners can skip to in able to remain anonymous, maximize their security, etc. It doesn’t work like that. Foundational building blocks are crucial to focus on instead of cheating and skipping the basics. You have to walk before you can run if you want to master any of these crafts. 
+Foundational building blocks are crucial to focus on instead of cheating and skipping the basics. You have to walk before you can run if you want to master any of these crafts. 
 
 It’s kind of like saying you can rely on autopilot in a car if you don’t know how to drive. No, you need to learn the basics of driving as well as HOW TO DRIVE so you can take over if autopilot fails you. You can’t rely on it.. we’re not there yet with technology. 
 
@@ -150,15 +152,15 @@ It’s kind of like saying you can rely on autopilot in a car if you don’t kno
 
 Same thing with online anonymity, you can’t just rely on Tor and Tails to make you a ghost on the internet. You can't just rely on a VPN and a password manager for your security, or a cookie auto delete extension for your privacy. These tools are not bulletproof and you may (and will) need to adjust your setup as necessary. Having the proper tools is only half of the equation. You need to also know how to use them efficiently. Granted using Tails with no knowledge is better than not using Tails with no knowledge (i.e., average Joe activist who isn’t tech savvy), but if being anonymous is an absolute must for you, then it’s crucial that you learn what’s under the hood.
 
-If you're, for example, trying to be anonymous, then you need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Let’s say you’re a whistleblower live booting Tails and using Tor to conduct your activities. Your Tails install is connected to your home Wi-Fi and you’re storing files that are evidence to your Tails persistent volume with no intentions of wiping that USB. Notice how I mentioned you’re using your home Wi-Fi and storing evidence to your USB without any intentions of ever wiping it? This is bad opsec. That’s bad practice and consistently following these bad habits will one day come back for you.
+If you're, for example, trying to be anonymous, then you need to know the science to breaking down online anonymity and the formula contains the methods in which can be used to identify you. Want better online security? Learn from cyber security sources to stay educated on how systems (including yours) are typically breached. Privacy is straight forward as well, just learn the methods that are typically used to gather abundant data on you that you do not aprove of and then find out how to prevent it.
 
 Granted nobody is perfect but that’s why you should learn the basics of whatever you’re doing so that you actually know how it works and what’s going on behind the scenes, therefore making it less likely for you to make a mistake. Do you think career black-hat hackers know every detail about Nmap or the other tools they use? Most of them do not, but what they do understand quite well is how these tools work under the hood from a technical perspective.
 
 Someone once told me this: Forensic investigators use automated forensic tools to make their lives easier. This is also known as "push button forensics", where you just "push a button" and the tool does everything for them. If they did not have these tools at their disposal, they would still have the knowledge on how to parse these different OS artifacts manually without relying on an automated toolkit. 
 
-This is the mindset that I learned from many of my mentors and I encourage you to adopt the same mindset. When you learn something, try to establish a knowledge pyramid; where foundational building blocks are at the bottom of the pyramid and the more advanced will be at the top. Work your way up. 
+When you learn something, try to establish a knowledge pyramid; where foundational building blocks are at the bottom of the pyramid and the more advanced will be at the top. Work your way up. 
 
-Are you trying to be a software developer? Don't start with writing code, hold the fuck on... How is that code compiled? How is that code ran on the CPU? How is that program loaded into memory and how does the CPU execute instructions off the memory stack? 
+Are you trying to be a software developer? Don't start with writing code, hold the fuck on... How is that code compiled? How is that code ran on the CPU? How is that program loaded into memory? How do CPU pointers work? You obviously don't have to know every detail if you're writing simple code for a project real fast and just want to get it done, but if you plan on frequently writing code that is advanced then you should learn comp sci fundamentals.
 
 Learning CPU instruction set architectures such as x86 as well as x86 assembly is not the easiest task and will take time.
 
@@ -256,7 +258,7 @@ The "black web" doesn't exist. When people say "black web", what they really mea
 
 ## OPSEC
 
-Operational Security (OPSEC) as a whole is a pretty broad term initially used in the Military just like a lot of IT terminology. It’s all the same concept but in security it’s essentially the small details or things you do that may be used to identify you. An example is you posting personal information on social media, that’s bad OPSEC. This doesn't mean you can't post personal information on the internet, but rather you should keep your personal life and public life separate. If you're wanting to be "anonymous", then now you have not only a public and personal life, but an "anonymous" life as well. They shouldn't cross reference at any point.
+Operational Security (OPSEC) as a whole is a pretty broad term initially used in the Military just like a lot of IT terminology. It’s all the same concept but in security it’s essentially the small details or things you do that may be used to identify you. An example is you posting personal information on social media, that’s bad OPSEC. This doesn't mean you can't post personal information on the internet, but rather you should keep your personal life and public life separate.
 
 There's typically three "lives" that you will have to live: personal life, online life, and anonymous life.
 
@@ -266,22 +268,11 @@ Online life: Your online life is reserved for your online activities. If you wan
 
 Anonymous life: Self explanatory. Your anonymous life is reserved for the side of you where you want to remain anonymous online. If you perform any illegal actiities, this is probably where it resides. At least it should be. If you legally and nonchalantly browse the dark web, you also should prioritize anonymity under every circumstance.
 
-For your anonymous life, don't brag to anyone about the things you’re doing online that could potentially be illegal. Don’t tell anything to anyone. Keep to yourself, even if what you're doing is legal. It doesn't matter. Legal or illegal, your goal is to not be unmasked. You make that at a lot easier if you nonstop talk about everything you do. The reasons are pretty obvious but I will go into detail anyway. You have to pay attention to your own OPSEC while you’re online. If you drag other people into your activities, that's one additional person's OPSEC you have to rely on. The chances of you getting caught are now twice as likely because now there are two people who can make a mistake at any moment. As long as we’re on the topic, do not work with other people. There are some exceptions that make this okay as long as you triple check you’re doing everything correct to hide your identity, but that shouldn’t be something you worry about or participate in until you have more experience. I'll reiterate this from my introduction: Illegal activities are not condoned. I use illegal activities as a base example, that isn't me telling you to go out there and commit crimes.
-
-Think about the things that can so south very quickly if people are aware of your activities because you’ve told them or involved them. They may tell other people who then tell other people, and before you know it everyone knows about your activities. 
-
-Kevin Mitnick is a great example. He was (and still is, just on the good side now) a hacking prodigy who was arrested because his friends ratted him out for no reason, just to snitch to be an asshole. You also have to rely on anyone you involve to not snitch. If police get involved and your friends are interrogated, I can promise you they will rat you out if it means their sentence is reduced. Even if they won’t rat you out, they will probably fall for their interrogation tactics mind game tomfoolery. Everyone thinks otherwise, but I can guarantee you that unless you have the worlds most loyal best friend to ever fucking exist who will take a sentence to the face for you, then it’s not going to go well for you. So for 99.99% of people who don’t have that friend, here is a summary for you: work alone, learn to be independent. You’re going to need to solo for the vast majority of your life. If you’re double thinking working solo, spend two minutes on Google and get back to me. I’ll get you started:
-
-Link (clearnet):
-
-[https://www.indybay.org/newsitems/2012/03/07/18708917.php](https://www.indybay.org/newsitems/2012/03/07/18708917.php) 
-
-
-**This was published prior to the passing of Kevin Mitnick. RIP Kevin Mitnick.**
+For your anonymous life, don't brag to anyone about the things you’re doing online that could potentially be illegal. Don’t tell anything to anyone. Keep to yourself, even if what you're doing is legal. It doesn't matter. Legal or illegal, your goal is to not be unmasked. You make that at a lot easier if you nonstop talk about everything you do while giving details about unique attributes of your life on the same persona attached to your illegal activities. The key is segmentation. 
 
 ## OPSEC Reality Check
 
-This section is suited mainly for those who have an anonymous life. Even if you don't have an anonymous life or if you don't care about people identifying you, I still recommend reading this section as it will shine light towards the reality of how scary the internet can be even when you make the smallest things public. None of this really matters in other situations unless if you're specifically trying to not be identified.
+This section will shine light towards the reality of how scary the internet can be even when you make the smallest things public. You then will think twice before posting something online. This section won't even cover .1% of the methods used to track people. 
 	
 The lack of OPSEC is something that even the most experienced security experts struggle with from time to time. Nobody is perfect which is why I created this section because there’s a lot of things that we may do that don't seem like such a bad idea but in reality can actually be used to identify us. The following examples are designed to be a reality check of how scary even the smallest details you make public can haunt you later in life. I was reading an OPSEC related post on a security form a while back ago (edit: it just so happens to be that that thread was the Jolly Rogers thread linked above haha. I get a few things off as I was writing purely off memory, but it's still useful knowledge.). The OPSEC post author mentioned something along the lines of a fellow user on the form who mentioned in one of his posts that he was watching an old show on Netflix the night prior and even mentioned the movie by name. The author of the OPSEC post then went on to explain why this is a bad idea. Can you answer why this is a bad idea without reading ahead? Congratulations if you can. Now let’s talk about why this isn't a good idea. First of all, nobody cares about what you did last night. Let’s start there. You’re over sharing in your post, this is what is called “information disclosure”. This is an example of you disclosing way more information than necessary to the public. You might as well include at the bottom of your post your full name, SSN, and where you spent your evening today. Many believe this is perfectly fine because they believe it doesn’t matter what they say online if they’re anonymous regardless. Their mindset is, “I can say anything I want because nobody can prove that message came from me or that user account is ran by me!”. This is you being cocky and assuming you can’t get be unmasked. Shut the fuck up, you’re supposed to be a ghost on the internet. That’s like hacking into a server and then uploading a bunch of ASCII dicks and messages saying “your security is shit”. You’re literally just telling them that you’re there and making your presence known. That’s like shooting your gun in a stealth mission, except here you purposely shot your gun. If this was Tom Clancy’s Splinter Cell, it’d be game over. 
 
