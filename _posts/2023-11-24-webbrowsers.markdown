@@ -55,7 +55,7 @@ I will not be covering other Chromium based browsers in this post as they're not
 
 ## Chromium & Google Chrome
 
-I advise to just use Chromium if you're looking for something reliable and fast and privacy isn't a concern. Chromium looks and feels exactly like Google Chrome. Chromium & Chrome are both pretty "secure", Google knows what they're doing for the most part when it comes to security. Chrome fans are better off using Chromium as it's literally what Chrome is but without the propriety garbage. You know what code is running on your system and it's less bloated. Chromium *has to be* a good foundation.
+I advise to just use Chromium if you're looking for something reliable and fast and privacy isn't a concern. Chromium looks and feels exactly like Google Chrome. Chromium & Chrome are both pretty "secure", Google "knows what they're doing" for the most part when it comes to security. Chrome fans are better off using Chromium as it's literally what Chrome is but without the propriety garbage. 
 
 Chromium has to be:
 
@@ -71,7 +71,7 @@ Google owns the most popular Web browser *AND* the most popular search engine in
 
 The Google search engine is also the best search engine for consistent results. Google by far gives the best results of all search engines in terms of consistency, accuracy, etc.. This is due to the popularity of the search engine. The Google search engine is arguably the most popular piece of software ever created. This grants the Google search engine a huge advantage over other search engines as it has more information generated into the algorithm. 
 
-Picking a search engine to use is just deciding what neural network you want to use. What network had more time to develop with more data fed into the algorithm? What network has more advanced AI that won't feed you awful results (*cough* Bing).
+Picking a search engine to use is just deciding what neural network you want to use. What network had more time to develop with more data fed into the algorithm? What network has more advanced AI that won't feed you awful results?
 
 The only reason I can think of for why someone may use Chrome over Chromium is if they: 
 
@@ -97,10 +97,6 @@ If you like feature rich web browsers that are still relatively fast compared to
 
 ## Bandwagoning/gatekeeping web browsers
 
-I am going to end with this. 
+It does not matter what browser you use. 
 
-The dumbest thing you can do is bandwagon a particular browser or gatekeep other browsers that aren't "your personal favorite". Especially if you use Google Chrome. Not saying you can't use Chrome, of course, but understand that you use Chrome because you don't know better about anything else. Which again, IS FINE... but don't hate on people who use other web browsers as if you know the differences regardles. You don't. If your reason for disliking a browser boils down to "who even uses that browser??", then you're missing the whole fucking point. 
-
-There are people different than you who have different needs than you. Hence why these various browsers were created for other people. If everyone was like you, everyone would just use Google Chrome!!!! I know that's not a hard concept to grasp but you'd be shocked with how many idiots are online that can't grasp simple shit, and these are the people who make fun of person "X" for using web browser "Y" just because it's not Google Chrome.
-
-
+Use what you want. 
