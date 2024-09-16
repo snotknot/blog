@@ -9,9 +9,9 @@ Last Updated: 8/23/23
 
 ## Introduction
 
-Hello all, I go by “snotknot” online and I am a security enthusiast who wants to share my knowledge. I’ve always wanted to write one of these threads because there’s a lot of misinformation out there. Before we get started, it’s important to know that although I am passionate about what I will be teaching in these threads, that doesn’t mean you should blindly trust everything I say. You definitely need to do your own research too and you should use this thread more as a template and not a “go-to” resource. It’s easy to know what’s fact and what’s lies when you become more experienced at the craft, but as a beginner it can be tricky and you’re likely to be deceived. This thread of course won’t be bullet proof and there may be some things that I get wrong. 
+Hello all, I go by “snotknot” online. I am a security enthusiast who always wanted to write one of these threads. Before we get started, it’s important to know that although I am passionate about what I will be teaching in these threads, that doesn’t mean you should blindly trust everything I say. You definitely need to do your own research too and you should use this thread more as a template and not a “go-to” resource. It’s easy to know what’s fact and what’s lies when you become more experienced at the craft, but as a beginner it can be tricky and you’re likely to be deceived. This thread of course won’t be bullet proof and there may be some things that I get wrong. 
 
-Upon reading these threads, you will obtain a greater understanding of the techniques that the best at their craft use to remain anonymous on the internet. You will also learn the methods many of them use to enhance their privacy and security online. The title is a bit misleading, it's not just a security thread as you'll quickly come to realize.
+Upon reading these threads, you will obtain a greater understanding of the techniques that the best at their craft use to remain anonymous on the internet, enhance their privacy, as well as their security. AKA: The title is a bit misleading, it's not just a security thread as you'll quickly come to realize.
 
 I cannot stress this enough - These threads do not cover "everything". Teaching EVERY detail of EVERY aspect of these various crafts would be way too time consuming and overall not efficient as there are way too many situational variables that differ from person to person. On top of that: You, the reader, will not remember everything taught regardless. You are better off instead trying to learn these various topics via trial and error and it will all come naturally with time.
 
@@ -21,11 +21,15 @@ Reading only does so much, you also need to have some hands on experience to bal
 
 Throughout this thread in particular, you will realize that I often reference hackers for my examples to help demonstrate points. I do that not because I condone hacking, but rather because hackers are big targets for Law Enforcement. This makes them relatively good examples to use when it comes to the topic of anonymity, which is a topic we will be covering on quite a bit throughout these threads.
 
+**It is expected that you are not a novice user, but instead someone who is heavily interested in learning the topics of anonymity, privacy, and security. If you're an average Joe, you probably wouldn't have stumbled upon this thread. These threads are designed for people who want to obtain the appropriate knowledge to min-max their anonymity, privacy, and security, or simply people who are interested in said topics and just want to read. If you either don't care about these topics, or don't plan on implementing the mentioned techniques into your setup, this thread isn't for you**
+
 Lastly, don’t expect this thread to be proofread by an English professor. There will be some grammatical errors here and there, and there will certainly be lots of comma splicing and run-on sentences. 
 
 Let's get started.
 
-Please take the time to read the thread I have linked below. I highly recommend that you don’t continue reading this thread until you have read the entirety of the Jolly Roger’s security thread. You will likely be confused if you skip the thread and read these threads first. It’s pretty lengthy so take your time. Jolly Roger’s security thread is a great starting point for beginners to teach them the basics of tor, tails, and other fundamentals. It’s important to start by building fundamentals. You will realize that I will touch on and teach topics that were already covered in the Jolly Rogers thread. This is due to the fact that I already wrote those portions of my thread before including Jolly Roger's thread as a resource. I recommend reading them as I may introduce a few new things.
+If you plan on Min-maxing your privacy, security, or anonymity and plan on being an advanced user, then please take the time read the thread linked below. You should also learn the mentioned prerequisites listed in the next section (assuming you don't already meet the criteria). 
+
+You will realize that I will touch on and teach topics that were already covered in the Jolly Rogers thread. This is due to the fact that I already wrote those portions of my thread before including Jolly Roger's thread as a resource. I recommend reading them as I may introduce a few new things.
 
 Jolly Roger’s Security Thread (2014)
 
@@ -36,6 +40,12 @@ Mirror (clearnet):
 [https://www.lopp.net/pdf/Jolly_Rogers_Security_thread_for_Beginners.pdf](https://www.lopp.net/pdf/Jolly_Rogers_Security_thread_for_Beginners.pdf)
 
 ## Prerequisites
+
+"Why do I need these prerequisites?"
+
+Answer: As already mentioned, these threads are not for novice users, therefore the solution isn't "Install firefox, uBlock Origin, and a password manager".
+
+
 
 - Basic computer science fundamentals 
 - Networking Fundamentals (IP addresses, subnetting, OSI Model, Routing, Switching)
@@ -81,7 +91,7 @@ Hex is base16, and the characters are 12345689ABCDEF. It's just 1-9, then A-F.
 
 CPUs execute machine code, and the type of machine code they execute is binary (base2). When humans read the code of a compiled binary, they read what's called "Op codes", AKA "Operation Codes" which will be written in Hex instead of Binary. OpCodes are another form of machine code, and is the variant that humans read. This is because it's a more convenient way for humans to read the compiled binary. We don't wanna sit here and fucking read binary all day, right?
 
-Next, you need to learn how the CPU interacts with these memory addresses, some in which may contain instructions to execute on the CPU, while some may contain values such as our example "0x4".
+Next, you need to learn how the CPU interacts with these memory addresses, which contain instructions to execute on the CPU.
 
 This is where the x86 CPU pointers come into play. I will now redirect you to a source that will teach the rest of the basics of x86 pointers as well as a basic assembly rundown.
 
@@ -139,7 +149,7 @@ Real world example of TCP using Wireshark (Credit: Chris Greer)
 
 **tips for successfully reading this thread** 
 - Don’t skip ahead/skim through the thread, read in order
-- read the jolly rogers security thread before proceeding past this point
+- Don't skip the prerequisites (you're just making it harder; you wouldn't skip to advanced math before learning basic math, right?)
 - if there is something you do not understand, use Google to fill in any voids
   
 If you're wanting to remain anonymous, maximize your security, privacy and so on... then above is what I personally would recommend learning. I already know this is going to generate a fuck ton of controversy but I am a firm believer that you should learn the basics of computers and networking before you rely on them to keep you anonymous. 
@@ -171,12 +181,6 @@ I fully understand that if you’re wanting increased anonymity, for example, th
 Unfortunately, the world that we live in today does not value privacy. They have fucking smart fridges now collecting your data as well as the other 50 [IoT](https://en.wikipedia.org/wiki/Internet_of_things) devices that you probably have in your house. Everything is becoming “modern” and integrating technology for no reason. Some useful, most are pointless and a reason to steal and sell your data. People these days are so stupid that companies are like “we have this useful product that can make your life easier but it spies on you and collects your data!” and people eat that shit up and only see the pros and don’t give a fuck about the privacy cons because the lack of privacy is so normalized in today’s world. Companies are slowly shoving the mindset of “privacy doesn’t matter” into the minds of our generation to “normalize” it for their own gain. The problem with security minded individuals aren’t that these devices exist, but rather their lack of configuration to better suit your privacy and needs. How do you really know your amazon Alexa isn’t just a microphone in your living room for the feds or hackers to leverage? Any modern day  phone is sealed shut and are a pain in the ass to open without using Bob the Builder’s tool kit and avoiding the warranty, so how do you know your phone is really off when you power it off? The lack of reassurance from proprietary closed source software and hardware is what makes them scary and questionable by many across the globe. You’re essentially just trusting the manufacturing company without any reason to be secure.
 	
 If you're interested, Edward Snowden covers more on this topic on his podcast with Joe Rogan. You can check it out [here](https://www.youtube.com/watch?v=VFns39RXPrU).
-	
-I didn’t bring anything new to the table with the paragraph above, everybody knows that privacy is a myth today but really the point of that paragraph is to refresh your mind with reality and to educate the people who maybe didn’t already know. Now that you’re in the right mindset, it’s also important to know that there is no such thing as being 100% anonymous on the internet. There are of course things that you can do to increase your anonymity, but honestly your OPSEC (things you do that can aid in identifying you) is what matters the most. We’ll discuss OPSEC in the next section if you’re confused so don’t worry. You could take every possible step to increase your security online successfully but if you make one stupid OPSEC mistake to blow your cover then it’s all game over. It only takes one slip up. 
-
-Depending on your situation will obviously determine the steps you take to modify your setup to achieve your desired outcome. Some people don’t want to be “anonymous” on the internet, but want increased privacy. Remember: TOR, Tails, VPNs, accessing the dark web is all legal. It’s how you use it all that determines the legality of what you’re doing. If you’re simply browsing the dark web on security forums then you’ll be fine. I won’t discuss this any further because it’s common sense: use things for illegal shit = illegal. If you can’t comprehend what would be legal or illegal then you probably should start there. If you’re not sure on the legality of something, that’s fine… verify first or don’t do it at all. The point is you need to alter your habits/setup depending on your goals. I won’t sit here and list every single possible situation that you may be in right now. You need to obviously adjust accordingly. Be open minded. 
-
-Lastly: You will not learn all of this overnight. It comes with time and experience, you need to be dedicated to learning the concepts. The urge to learn should be a genuine feeling. Everything discussed in this thread isn’t necessarily “hard”, but more of a “you have to do it to know” type of a thing so that’s why you should get hands on experience using the tools and methods that you learn not only from these threads, but elsewhere online. Security is a very large and broad subject. If you aren’t dedicated then you’re probably going to fall behind. 
 
 ## Privacy vs. Anonymity
 
@@ -188,11 +192,9 @@ How, you may ask? Let's break it down.
 
 Pros of using Linux: 
 
-- Not using Windows = not using a Microsoft product = allows us to break free from the restrictions of Windows
-- Not using Windows = not using a Microsoft product = allows us to guarantee our data isn't being collected by Microsoft
+- Not using a Microsoft product (Microsoft of course being the company we are trying to avoid)
 - Not using windows = less malware will be designed to run on our system (vast majority of malware is written for Windows, with the second being MacOS)
 - Linux is open source, which guarantees full control over your system
-- Linux is open source, which guarantees there's no malicious backdoors running on your system (you can't guarantee this with Windows)
 - The only thing windows is better for is photo/video editing, and gaming. Linux is better or just as good as Windows for everything else
 
 Pros of using Firefox: 
